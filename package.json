@@ -1,0 +1,17 @@
+{
+  "name": "@fluid-music/g3rd",
+  "version": "0.0.1",
+  "description": "mash up 10ths played on the guitar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fluid-music"
+  ],
+  "author": "Charles Holbrow",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "fluid-music": "file:/Users/charles/projects/cybr/fluid-music"
+  }
+}

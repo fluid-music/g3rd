@@ -1,0 +1,15 @@
+{
+  "name": "demo-mp3",
+  "version": "0.0.1",
+  "description": "experimenting with mp3 files in fluid music",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charles Holbrow",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@fluid-music/g3rd": "file:..",
+    "fluid-music": "file:/Users/charles/projects/cybr/fluid-music"
+  }
+}

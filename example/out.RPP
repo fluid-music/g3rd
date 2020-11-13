@@ -1,0 +1,274 @@
+<REAPER_PROJECT 0.1 6.13/OSX64 1596463823
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 1
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 0
+  ZOOM 100 0 0
+  VZOOMEX 6 0
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "" ""
+  <RECORD_CFG
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 0
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+  >
+  GLOBAL_AUTO -1
+  TEMPO 89 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0 0
+  SELECTION2 0 0
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {1129F192-1F81-CA4A-8A90-3307E37AC58C}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {97558381-F3FA-1846-8EE1-EBB08B400FE3}
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  <PROJBAY
+  >
+  <TRACK
+    NAME g10A
+    VOLPAN 1 0
+    ISBUS 0 0
+    <ITEM
+      NAME A2-min-001.mp3.0
+      POSITION 0
+      <SOURCE MP3
+        FILE /Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths/A2-min-001.mp3
+      >
+      LENGTH 0.2247191011235955
+      FADEOUT 1 0.01 0 1 0 0
+      FADEIN 1 0.01 0 1 0 0
+      VOLPAN 1 0 1 -1
+    >
+    <ITEM
+      NAME A2-min-001.mp3.1
+      POSITION 0.2247191011235955
+      <SOURCE MP3
+        FILE /Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths/A2-min-001.mp3
+      >
+      LENGTH 0.2247191011235955
+      FADEOUT 1 0.01 0 1 0 0
+      FADEIN 1 0.01 0 1 0 0
+      VOLPAN 1 0 1 -1
+    >
+    <ITEM
+      NAME B2-min-001.mp3.2
+      POSITION 0.449438202247191
+      <SOURCE MP3
+        FILE /Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths/B2-min-001.mp3
+      >
+      LENGTH 0.8988764044943822
+      FADEOUT 1 0.01 0 1 0 0
+      FADEIN 1 0.01 0 1 0 0
+      VOLPAN 1 0 1 -1
+    >
+    <ITEM
+      NAME C3-maj-001.mp3.3
+      POSITION 3.3707865168539324
+      <SOURCE MP3
+        FILE /Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths/C3-maj-001.mp3
+      >
+      LENGTH 0.2247191011235955
+      FADEOUT 1 0.01 0 1 0 0
+      FADEIN 1 0.01 0 1 0 0
+      VOLPAN 1 0 1 -1
+    >
+    <ITEM
+      NAME D3-maj-001.mp3.4
+      POSITION 4.044943820224719
+      <SOURCE MP3
+        FILE /Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths/D3-maj-001.mp3
+      >
+      LENGTH 0.22471910112359547
+      FADEOUT 1 0.01 0 1 0 0
+      FADEIN 1 0.01 0 1 0 0
+      VOLPAN 1 0 1 -1
+    >
+    <ITEM
+      NAME C3-maj-001.mp3.5
+      POSITION 6.741573033707865
+      <SOURCE MP3
+        FILE /Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths/C3-maj-001.mp3
+      >
+      LENGTH 0.2247191011235955
+      FADEOUT 1 0.01 0 1 0 0
+      FADEIN 1 0.01 0 1 0 0
+      VOLPAN 1 0 1 -1
+    >
+    <ITEM
+      NAME A2-min-001.mp3.6
+      POSITION 7.415730337078652
+      <SOURCE MP3
+        FILE /Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths/A2-min-001.mp3
+      >
+      LENGTH 0.22471910112359547
+      FADEOUT 1 0.01 0 1 0 0
+      FADEIN 1 0.01 0 1 0 0
+      VOLPAN 1 0 1 -1
+    >
+    <ITEM
+      NAME A2-min-001.mp3.7
+      POSITION 10.112359550561798
+      <SOURCE MP3
+        FILE /Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths/A2-min-001.mp3
+      >
+      LENGTH 0.2247191011235955
+      FADEOUT 1 0.01 0 1 0 0
+      FADEIN 1 0.01 0 1 0 0
+      VOLPAN 1 0 1 -1
+    >
+  >
+  <TRACK
+    NAME g10A-s
+    VOLPAN 1 0
+    ISBUS 0 0
+    <ITEM
+      NAME 01-A2-min-003-stretch.mp3.0
+      POSITION 0
+      <SOURCE MP3
+        FILE /Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3
+      >
+      LENGTH 0.2347191011235955
+      FADEOUT 1 0.001664674476053869 0 1 0 0
+      FADEIN 1 0.23305442664754164 0 1 0 0
+      VOLPAN 1 0 0.409458790115157 -1
+    >
+    <ITEM
+      NAME 01-A2-min-003-stretch.mp3.1
+      POSITION 0.2247191011235955
+      <SOURCE MP3
+        FILE /Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3
+      >
+      LENGTH 0.2347191011235955
+      FADEOUT 1 0.001664674476053869 0 1 0 0
+      FADEIN 1 0.23305442664754164 0 1 0 0
+      VOLPAN 1 0 0.409458790115157 -1
+    >
+    <ITEM
+      NAME 02-B2-min-004-stretch.mp3.2
+      POSITION 0.449438202247191
+      <SOURCE MP3
+        FILE /Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths-stretch/02-B2-min-004-stretch.mp3
+      >
+      LENGTH 2.9313483146067414
+      FADEOUT 1 0.01 0 1 0 0
+      FADEIN 1 1.4 0 1 0 0
+      VOLPAN 1 0 1 -1
+    >
+    <ITEM
+      NAME 03-C3-maj-004-stretch.mp3.3
+      POSITION 3.3707865168539324
+      <SOURCE MP3
+        FILE /Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths-stretch/03-C3-maj-004-stretch.mp3
+      >
+      LENGTH 0.6841573033707868
+      FADEOUT 1 0.004852179456530404 0 1 0 0
+      FADEIN 1 0.6793051239142565 0 1 0 0
+      VOLPAN 1 0 0.699059216463091 -1
+    >
+    <ITEM
+      NAME 04-D3-maj-004-stretch.mp3.4
+      POSITION 4.044943820224719
+      <SOURCE MP3
+        FILE /Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3
+      >
+      LENGTH 2.7066292134831453
+      FADEOUT 1 0.01 0 1 0 0
+      FADEIN 1 1.4 0 1 0 0
+      VOLPAN 1 0 1 -1
+    >
+    <ITEM
+      NAME 03-C3-maj-004-stretch.mp3.5
+      POSITION 6.741573033707865
+      <SOURCE MP3
+        FILE /Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths-stretch/03-C3-maj-004-stretch.mp3
+      >
+      LENGTH 0.6841573033707873
+      FADEOUT 1 0.004852179456530407 0 1 0 0
+      FADEIN 1 0.6793051239142569 0 1 0 0
+      VOLPAN 1 0 0.6990592164630911 -1
+    >
+    <ITEM
+      NAME 01-A2-min-003-stretch.mp3.6
+      POSITION 7.415730337078652
+      <SOURCE MP3
+        FILE /Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3
+      >
+      LENGTH 2.7066292134831462
+      FADEOUT 1 0.01 0 1 0 0
+      FADEIN 1 1.4 0 1 0 0
+      VOLPAN 1 0 1 -1
+    >
+    <ITEM
+      NAME 01-A2-min-003-stretch.mp3.7
+      POSITION 10.112359550561798
+      <SOURCE MP3
+        FILE /Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3
+      >
+      LENGTH 16.169795918367345
+      FADEOUT 1 0.01 0 1 0 0
+      FADEIN 1 1.4 0 1 0 0
+      VOLPAN 1 0 1 -1
+    >
+  >
+>
