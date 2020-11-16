@@ -9,9 +9,10 @@ const session = new fluid.FluidSession({
   { name: 'g10A' },
 ])
 
+session.editCursorTime = 1
 session.insertScore({
-  r:     '1..2..3..4..5..',
-  g10A: ['aab---', 'c..d', 'c..a', 'a'],
+  r:     '1234',
+  g10A: ['a---', 'b---', 'c---', 'd---'],
 })
 
 async function run() {

@@ -1,146 +1,146 @@
 module.exports = {
-  "01-A2-min-003-stretch.mp3": {
-    "path": "mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3",
+  "01-A2-min-003-stretch.wav": {
+    "path": "mp3-g-10ths-stretch/01-A2-min-003-stretch.wav",
     "info": {
       "tagTypes": [],
       "trackInfo": [],
-      "lossless": false,
-      "container": "MPEG",
-      "codec": "MPEG 1 Layer 3",
+      "container": "WAVE",
+      "codec": "PCM",
+      "bitsPerSample": 16,
       "sampleRate": 44100,
       "numberOfChannels": 2,
-      "bitrate": 180609.82431340875,
-      "tool": "LAME3.99r",
-      "duration": 16.169795918367345,
-      "codecProfile": "V4"
+      "bitrate": 352800,
+      "lossless": true,
+      "numberOfSamples": 711048,
+      "duration": 16.123537414965988
     }
   },
-  "02-B2-min-004-stretch.mp3": {
-    "path": "mp3-g-10ths-stretch/02-B2-min-004-stretch.mp3",
+  "02-B2-min-004-stretch.wav": {
+    "path": "mp3-g-10ths-stretch/02-B2-min-004-stretch.wav",
     "info": {
       "tagTypes": [],
       "trackInfo": [],
-      "lossless": false,
-      "container": "MPEG",
-      "codec": "MPEG 1 Layer 3",
+      "container": "WAVE",
+      "codec": "PCM",
+      "bitsPerSample": 16,
       "sampleRate": 44100,
       "numberOfChannels": 2,
-      "bitrate": 180003.9760638298,
-      "tool": "LAME3.99r",
-      "duration": 12.277551020408163,
-      "codecProfile": "V4"
+      "bitrate": 352800,
+      "lossless": true,
+      "numberOfSamples": 540176,
+      "duration": 12.248888888888889
     }
   },
-  "03-C3-maj-004-stretch.mp3": {
-    "path": "mp3-g-10ths-stretch/03-C3-maj-004-stretch.mp3",
+  "03-C3-maj-004-stretch.wav": {
+    "path": "mp3-g-10ths-stretch/03-C3-maj-004-stretch.wav",
     "info": {
       "tagTypes": [],
       "trackInfo": [],
-      "lossless": false,
-      "container": "MPEG",
-      "codec": "MPEG 1 Layer 3",
+      "container": "WAVE",
+      "codec": "PCM",
+      "bitsPerSample": 16,
       "sampleRate": 44100,
       "numberOfChannels": 2,
-      "bitrate": 178341.33583690986,
-      "tool": "LAME3.99r",
-      "duration": 12.173061224489796,
-      "codecProfile": "V4"
+      "bitrate": 352800,
+      "lossless": true,
+      "numberOfSamples": 534664,
+      "duration": 12.12390022675737
     }
   },
-  "04-D3-maj-004-stretch.mp3": {
-    "path": "mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3",
+  "04-D3-maj-004-stretch.wav": {
+    "path": "mp3-g-10ths-stretch/04-D3-maj-004-stretch.wav",
     "info": {
       "tagTypes": [],
       "trackInfo": [],
-      "lossless": false,
-      "container": "MPEG",
-      "codec": "MPEG 1 Layer 3",
+      "container": "WAVE",
+      "codec": "PCM",
+      "bitsPerSample": 16,
       "sampleRate": 44100,
       "numberOfChannels": 2,
-      "bitrate": 182064.67783505155,
-      "tool": "LAME3.99r",
-      "duration": 12.66938775510204,
-      "codecProfile": "V4"
+      "bitrate": 352800,
+      "lossless": true,
+      "numberOfSamples": 556712,
+      "duration": 12.623854875283447
     }
   },
-  "05-E3-min-005-stretch.mp3": {
-    "path": "mp3-g-10ths-stretch/05-E3-min-005-stretch.mp3",
+  "05-E3-min-005-stretch.wav": {
+    "path": "mp3-g-10ths-stretch/05-E3-min-005-stretch.wav",
     "info": {
       "tagTypes": [],
       "trackInfo": [],
-      "lossless": false,
-      "container": "MPEG",
-      "codec": "MPEG 1 Layer 3",
+      "container": "WAVE",
+      "codec": "PCM",
+      "bitsPerSample": 16,
       "sampleRate": 44100,
       "numberOfChannels": 2,
-      "bitrate": 175131.8576388889,
-      "tool": "LAME3.99r",
-      "duration": 13.165714285714285,
-      "codecProfile": "V4"
+      "bitrate": 352800,
+      "lossless": true,
+      "numberOfSamples": 578760,
+      "duration": 13.123809523809523
     }
   },
-  "06-Fs3-min-005-stretch.mp3": {
-    "path": "mp3-g-10ths-stretch/06-Fs3-min-005-stretch.mp3",
+  "06-Fs3-min-005-stretch.wav": {
+    "path": "mp3-g-10ths-stretch/06-Fs3-min-005-stretch.wav",
     "info": {
       "tagTypes": [],
       "trackInfo": [],
-      "lossless": false,
-      "container": "MPEG",
-      "codec": "MPEG 1 Layer 3",
+      "container": "WAVE",
+      "codec": "PCM",
+      "bitsPerSample": 16,
       "sampleRate": 44100,
       "numberOfChannels": 2,
-      "bitrate": 175628.46283783784,
-      "tool": "LAME3.99r",
-      "duration": 13.531428571428572,
-      "codecProfile": "V4"
+      "bitrate": 352800,
+      "lossless": true,
+      "numberOfSamples": 595296,
+      "duration": 13.498775510204082
     }
   },
-  "07-G3-maj-002-stretch.mp3": {
-    "path": "mp3-g-10ths-stretch/07-G3-maj-002-stretch.mp3",
+  "07-G3-maj-002-stretch.wav": {
+    "path": "mp3-g-10ths-stretch/07-G3-maj-002-stretch.wav",
     "info": {
       "tagTypes": [],
       "trackInfo": [],
-      "lossless": false,
-      "container": "MPEG",
-      "codec": "MPEG 1 Layer 3",
+      "container": "WAVE",
+      "codec": "PCM",
+      "bitsPerSample": 16,
       "sampleRate": 44100,
       "numberOfChannels": 2,
-      "bitrate": 181557.56048387097,
-      "tool": "LAME3.99r",
-      "duration": 22.674285714285713,
-      "codecProfile": "V4"
+      "bitrate": 352800,
+      "lossless": true,
+      "numberOfSamples": 997960,
+      "duration": 22.629478458049885
     }
   },
-  "08-A3-min-004-stretch.mp3": {
-    "path": "mp3-g-10ths-stretch/08-A3-min-004-stretch.mp3",
+  "08-A3-min-004-stretch.wav": {
+    "path": "mp3-g-10ths-stretch/08-A3-min-004-stretch.wav",
     "info": {
       "tagTypes": [],
       "trackInfo": [],
-      "lossless": false,
-      "container": "MPEG",
-      "codec": "MPEG 1 Layer 3",
+      "container": "WAVE",
+      "codec": "PCM",
+      "bitsPerSample": 16,
       "sampleRate": 44100,
       "numberOfChannels": 2,
-      "bitrate": 178697.52659574468,
-      "tool": "LAME3.99r",
-      "duration": 12.277551020408163,
-      "codecProfile": "V4"
+      "bitrate": 352800,
+      "lossless": true,
+      "numberOfSamples": 540176,
+      "duration": 12.248888888888889
     }
   },
-  "09-A3-min-001-stretch.mp3": {
-    "path": "mp3-g-10ths-stretch/09-A3-min-001-stretch.mp3",
+  "09-A3-min-001-stretch.wav": {
+    "path": "mp3-g-10ths-stretch/09-A3-min-001-stretch.wav",
     "info": {
       "tagTypes": [],
       "trackInfo": [],
-      "lossless": false,
-      "container": "MPEG",
-      "codec": "MPEG 1 Layer 3",
+      "container": "WAVE",
+      "codec": "PCM",
+      "bitsPerSample": 16,
       "sampleRate": 44100,
       "numberOfChannels": 2,
-      "bitrate": 182189.16712403952,
-      "tool": "LAME3.99r",
-      "duration": 23.797551020408164,
-      "codecProfile": "V4"
+      "bitrate": 352800,
+      "lossless": true,
+      "numberOfSamples": 1047280,
+      "duration": 23.74784580498866
     }
   }
 }
