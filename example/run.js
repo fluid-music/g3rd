@@ -1,7 +1,7 @@
 const fluid = require('fluid-music')
 const g3rd = require('@fluid-music/g3rd')
 const session = new fluid.FluidSession({
-  bpm: 89,
+  bpm: 64,
   tLibrary: g3rd.tLibrary,
   dLibrary: new Array(10).fill(0).map((_, i) => { return { trimDb: -18 + i*2 } }),
   // d:     '965864965732544',
@@ -11,8 +11,10 @@ const session = new fluid.FluidSession({
 
 session.editCursorTime = 1
 session.insertScore({
-  r:     '1234',
-  g10A: ['a---', 'b---', 'c---', 'd---'],
+  r:     '1 2 3 4 5 6 7',
+  g10A: ['a--bc-h---',
+         'a--bc-g---',
+         'a--b-ce---', 'b', 'c', 'd', 'e', 'f', 'g', 'h'],
 })
 
 async function run() {

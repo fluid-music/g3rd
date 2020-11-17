@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.15/OSX64" 1605305888
+<REAPER_PROJECT 0.1 "6.15/OSX64" 1605653710
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -10,13 +10,13 @@
   PANLAW 1
   PROJOFFS 0 0 0
   MAXPROJLEN 0 600
-  GRID 3199 8 0.0625 8 1 0 0 0
+  GRID 3199 8 1 8 1 0 0 0
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 18.87640449438202
-  ZOOM 66.35019390308072 606 0
-  VZOOMEX 1 0
+  CURSOR 10.3125
+  ZOOM 23.25680393613774 0 0
+  VZOOMEX 6 0
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -53,10 +53,10 @@
     PATTERN 2863311530 2863311529
   >
   GLOBAL_AUTO -1
-  TEMPO 89 4 4
+  TEMPO 64 4 4
   PLAYRATE 1 0 0.25 4
-  SELECTION 1.34831460674157 2.02247191011236
-  SELECTION2 1.34831460674157 2.02247191011236
+  SELECTION 0 0
+  SELECTION2 0 0
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -85,7 +85,7 @@
   >
   <PROJBAY
   >
-  <TRACK {6F7E581F-67BA-0847-8C3A-727AAC1AA3AF}
+  <TRACK {8C572468-6988-0B4A-B08A-62EDFAAA1234}
     NAME g10A
     PEAKCOL 16576
     BEAT -1
@@ -104,188 +104,458 @@
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
-    TRACKID {6F7E581F-67BA-0847-8C3A-727AAC1AA3AF}
+    TRACKID {8C572468-6988-0B4A-B08A-62EDFAAA1234}
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
     <ITEM
-      POSITION 0.2247191011236
+      POSITION 3.75
       SNAPOFFS 0
-      LENGTH 0.2247191011236
-      LOOP 1
+      LENGTH 1.40625
+      LOOP 0
       ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
+      FADEIN 1 0.35 0 1 0 0
       FADEOUT 1 0.01 0 1 0 0
       MUTE 0 0
       SEL 0
-      IGUID {3BD2857E-1AFF-424B-945C-785790D4192C}
-      IID 2
-      NAME A2-min-001.mp3.1
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {3642DCCD-D823-A740-B2AA-A047AFF682EC}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths/A2-min-001.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 0.44943820224719
-      SNAPOFFS 0
-      LENGTH 2.50775510204082
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {F6E853F9-E714-704B-98E5-E8032C2752E3}
-      IID 3
-      NAME E3-min-001.mp3.2
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {8FA82737-8357-1F4F-A25C-91150CD80670}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths/E3-min-001.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 3.23125444308005
-      SNAPOFFS 0
-      LENGTH 0.2247191011236
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1.1 0.01 0.085187 1 1 0
-      MUTE 0 0
-      SEL 0
-      IGUID {000721C3-4CA8-CB48-A1E9-80153A4D03D5}
-      IID 7
-      NAME A2-min-001.mp3.6
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {A9B47C76-A5A2-3945-8A7C-72F8A70EBD1E}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths/A2-min-001.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 3.37078651685393
-      SNAPOFFS 0
-      LENGTH 0.2247191011236
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1.1 0.01 0.085187 1 1 0
-      FADEOUT 1.1 0.01 0.07231 1 1 0
-      MUTE 0 0
-      SEL 0
-      IGUID {82BE6761-F54D-7941-ADF2-EE2622964D9B}
-      IID 4
-      NAME D3-maj-001.mp3.3
-      VOLPAN 1 0 1 -1
-      SOFFS 0.10635697682235
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {803451E8-D93A-7C46-B2E1-8185AC8D88B0}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths/D3-maj-001.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 3.5231952962536
-      SNAPOFFS 0
-      LENGTH 0.2247191011236
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1.1 0.01 0.07231 1 1 0
-      FADEOUT 1.1 0.01 0.045574 1 1 0
-      MUTE 0 0
-      SEL 0
-      IGUID {108BF31E-AC33-4144-86D8-E4AC8ED0D721}
-      IID 5
-      NAME C3-maj-001.mp3.4
-      VOLPAN 1 0 1 -1
-      SOFFS 0.17009249628479
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {7C138755-E4A9-0549-B821-13412A0BF47F}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths/C3-maj-001.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 3.70234081979192
-      SNAPOFFS 0
-      LENGTH 0.2247191011236
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1.1 0.01 0.045574 1 1 0
-      FADEOUT 1.1 0.01 0.118559 1 1 0
-      MUTE 0 0
-      SEL 0
-      IGUID {F6D5CA38-D06E-D148-9C94-C5F7085E307D}
-      IID 6
-      NAME D3-maj-001.mp3.5
-      VOLPAN 1 0 1 -1
-      SOFFS 0.55070660939557
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {DEB850B9-D22F-7444-8274-A39ACE6F8EEA}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths/D3-maj-001.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 3.80850113003685
-      SNAPOFFS 0
-      LENGTH 0.22471910112359
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1.1 0.01 0.118559 1 1 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {B4C30180-975F-5441-9169-D57B09101E64}
+      IGUID {A5274AFB-4286-AB48-91B8-1D7EEFE360CD}
       IID 1
-      NAME A2-min-001.mp3.0
+      NAME A2-min-001.wav.0
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {CABF257E-809F-634F-8D93-1B2D38DF4C5B}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths/A2-min-001.mp3" 0
+      GUID {3F3A9A2F-8EC6-E34D-BDAF-FB9DD21736DD}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/A2-min-001.wav"
       >
     >
     <ITEM
-      POSITION 10.1123595505618
+      POSITION 5.15625
       SNAPOFFS 0
-      LENGTH 0.2247191011236
-      LOOP 1
+      LENGTH 0.46875
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.35 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D2EF1A86-FFA5-2049-A14A-D5168222778A}
+      IID 2
+      NAME B2-min-001.wav.1
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D6575ABB-58F9-224A-95D8-BB7AA069EE4A}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/B2-min-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 5.625
+      SNAPOFFS 0
+      LENGTH 0.9375
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.35 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2CD9D904-D737-E449-B730-A3388945BD6D}
+      IID 3
+      NAME C3-maj-001.wav.2
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3FACFC65-8E4F-B945-A01E-97EB186C2931}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/C3-maj-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 6.5625
+      SNAPOFFS 0
+      LENGTH 3.625
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.35 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DA52E5C1-16DE-844F-B678-F09EB90B9E81}
+      IID 4
+      NAME A3-min-001.wav.3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {45AD8E33-4CA0-CB4C-9E92-0A3266EC5357}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/A3-min-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 10.3125
+      SNAPOFFS 0
+      LENGTH 1.40625
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.35 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D6E7D109-A6D2-BB44-B861-9BE544A56DF6}
+      IID 5
+      NAME A2-min-001.wav.4
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {85B0DDA0-94BD-DB4C-8F09-9C0797C68C00}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/A2-min-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 11.71875
+      SNAPOFFS 0
+      LENGTH 0.46875
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.35 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {289B1806-C039-B546-911C-BF4393708C71}
+      IID 6
+      NAME B2-min-001.wav.5
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F35DCA2D-CEA5-224E-A55D-DEC165D5277F}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/B2-min-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 12.1875
+      SNAPOFFS 0
+      LENGTH 0.9375
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.35 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9DAA32CA-40F4-4243-A2D4-4623EBD452C5}
+      IID 7
+      NAME C3-maj-001.wav.6
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5F3743F5-19E5-5046-8200-471AB27C1731}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/C3-maj-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 13.125
+      SNAPOFFS 0
+      LENGTH 1.875
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.35 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {AAB583F6-5CCD-B044-A2FD-4FF6E6E770AD}
+      IID 8
+      NAME G3-maj-001.wav.7
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1F1EB631-4BD6-3E41-A6AD-D0BB0DABFDA8}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/G3-maj-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 16.875
+      SNAPOFFS 0
+      LENGTH 1.40625
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.35 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {89427EB7-8BAF-8F4D-B651-DF7BDA1D0F72}
+      IID 9
+      NAME A2-min-001.wav.8
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {371E4E89-7A17-B34E-972D-23AB0F638E31}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/A2-min-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 18.28125
+      SNAPOFFS 0
+      LENGTH 0.9375
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.35 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {766686C6-1281-104F-B1C6-219F3F8EBA78}
+      IID 10
+      NAME B2-min-001.wav.9
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {682FA6AD-29F0-CF42-B81F-B1B7F606B736}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/B2-min-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 19.21875
+      SNAPOFFS 0
+      LENGTH 0.46875
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.35 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1EEFE71D-B400-1F41-AC6C-E4BF00788111}
+      IID 11
+      NAME C3-maj-001.wav.10
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5180BCA1-9A0D-5C4E-B2EE-02E0390D2528}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/C3-maj-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 19.6875
+      SNAPOFFS 0
+      LENGTH 1.875
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.35 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A94B601C-5263-B745-892A-61F038901228}
+      IID 12
+      NAME E3-min-001.wav.11
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3043CBE3-ADFC-EE42-97B4-E532A53C0638}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/E3-min-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 23.4375
+      SNAPOFFS 0
+      LENGTH 2.24235827664399
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1.1 0.01 0.075138 1 1 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8BC047BA-8F05-474E-8D52-68702956CF8F}
+      IID 13
+      NAME B2-min-001.wav.12
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F7A6DBAF-7518-104F-95FB-7BB90151F435}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/B2-min-001.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 25.60472050049484
+      SNAPOFFS 0
+      LENGTH 2.5159410430839
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.075138 1 1 0
+      FADEOUT 1.1 0.01 0.933162 1 1 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D4E17D4C-7DD7-384B-8021-386C68D5C927}
+      IID 14
+      NAME C3-maj-001.wav.13
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3F6E6F92-51A8-7D48-B875-F3295B0FD291}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/C3-maj-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 27.1875
+      SNAPOFFS 0
+      LENGTH 3.625
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.933162 1 1 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9D4DAD8B-0B14-1C49-ABD8-AA564EC7C821}
+      IID 40
+      NAME A3-min-001.wav.3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BD2710E9-9F42-F74B-9F80-D1895DC6B8F0}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/A3-min-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 36.5625
+      SNAPOFFS 0
+      LENGTH 0.46875
+      LOOP 0
       ALLTAKES 0
       FADEIN 1 0.01 0 1 0 0
       FADEOUT 1 0.01 0 1 0 0
       MUTE 0 0
       SEL 0
-      IGUID {CD761F97-12C9-9D4D-BC9F-544267676D0E}
-      IID 8
-      NAME A2-min-001.mp3.7
+      IGUID {C66E1912-A554-1D49-83EF-75165DDED682}
+      IID 15
+      NAME D3-maj-001.wav.14
       VOLPAN 1 0 1 -1
       SOFFS 0
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {A002B287-36FB-1C46-9A68-A459490E43D4}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths/A2-min-001.mp3" 0
+      GUID {31FE5E31-5A52-BA45-82CA-315161AB2792}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/D3-maj-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 43.125
+      SNAPOFFS 0
+      LENGTH 0.46875
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DE89D6D5-2674-0F47-A055-7D028EB7676A}
+      IID 16
+      NAME E3-min-001.wav.15
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A6FB9099-DAC7-FD45-97FA-776B52504D9D}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/E3-min-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 49.6875
+      SNAPOFFS 0
+      LENGTH 0.46875
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9F5E583E-A1D6-AD4E-9C06-1B3A6907C014}
+      IID 17
+      NAME Fs3-min-001.wav.16
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8FD59C2F-D343-9649-8D26-D1ECA02C85B3}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/Fs3-min-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 56.25
+      SNAPOFFS 0
+      LENGTH 0.46875
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {06E6834B-0B6A-9A4A-AC25-04BA208D17F9}
+      IID 18
+      NAME G3-maj-001.wav.17
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B7617673-1A25-0148-B9FB-41B22BDB2484}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/G3-maj-001.wav"
+      >
+    >
+    <ITEM
+      POSITION 62.8125
+      SNAPOFFS 0
+      LENGTH 0.46875
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0
+      FADEOUT 1 0.01 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5DA24B5F-3B87-CC47-B005-EE1E64FE57DD}
+      IID 19
+      NAME A3-min-001.wav.18
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {674C23FD-383F-8842-A033-87B83045BF47}
+      <SOURCE WAVE
+        FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/A3-min-001.wav"
       >
     >
   >
-  <TRACK {BD8C5453-ABBF-8747-A104-41C4464F392B}
+  <TRACK {AF64BCE0-64FC-E040-8C73-7554E38F2301}
     NAME g10A-s
     PEAKCOL 16576
     BEAT -1
@@ -304,480 +574,516 @@
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
-    TRACKID {BD8C5453-ABBF-8747-A104-41C4464F392B}
+    TRACKID {AF64BCE0-64FC-E040-8C73-7554E38F2301}
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
     <ITEM
-      POSITION 0
+      POSITION 1.75
       SNAPOFFS 0
-      LENGTH 0.2347191011236
-      LOOP 1
+      LENGTH 2.80625
+      LOOP 0
       ALLTAKES 0
-      FADEIN 1 0.233054 0 1 0 0
-      FADEOUT 1 0.001665 0 1 0 0
+      FADEIN 1 0.3 0 1 0 0
+      FADEOUT 1 1.4 0 1 0 0
       MUTE 0 0
       SEL 0
-      IGUID {CB2897CB-ECD1-774B-B6CD-38B16F4F7102}
-      IID 9
-      NAME 01-A2-min-003-stretch.mp3.0
-      VOLPAN 1 0 0.409459 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {3D84D143-019E-6E4F-AF0E-6E83E1BC0F6E}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 0.2247191011236
-      SNAPOFFS 0
-      LENGTH 0.2347191011236
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.233054 0 1 0 0
-      FADEOUT 1 0.001665 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {582581BE-42D3-1144-A288-D110F096DD5A}
-      IID 10
-      NAME 01-A2-min-003-stretch.mp3.1
-      VOLPAN 1 0 0.409459 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {69F42B81-7E8C-5843-A0FF-82BF6C115251}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 3.37078651685393
-      SNAPOFFS 0
-      LENGTH 0.67415730337079
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.674157 0 1 0 0
-      FADEOUT 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {8899FD89-A2B2-1345-B8F1-7A0CDB1F77D4}
-      IID 12
-      NAME 04-D3-maj-004-stretch.mp3.3
-      VOLPAN 1 0 0.699059 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {39EF9879-1951-C043-855E-83642A59F735}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 4.71910112359551
-      SNAPOFFS 0
-      LENGTH 0.67415730337079
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0
-      FADEOUT 1 0.004852 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {289E44A1-487B-7E40-9256-011CE84C2512}
-      IID 17
-      NAME 04-D3-maj-004-stretch.mp3.3
-      VOLPAN 1 0 0.699059 -1
-      SOFFS 1.34831460674157
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {DB3E0EAC-6AD3-8E48-B2CB-E96AEC9EBC95}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 7.41573033707865
-      SNAPOFFS 0
-      LENGTH 2.70662921348315
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 1.4 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {F8817B24-4507-EB4B-A354-29692324D02D}
-      IID 15
-      NAME 01-A2-min-003-stretch.mp3.6
+      IGUID {B3D4593D-E2F0-674D-8C56-1565E784AE66}
+      IID 20
+      NAME 01-A2-min-003-stretch.wav.0
       VOLPAN 1 0 1 -1
-      SOFFS 0
+      SOFFS 6.03353741496599
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {AA60239A-6F45-E040-95CC-369A0FA050EF}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
+      GUID {C23D4AA3-7E87-CA40-9277-2ADB8B4DBE15}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/01-A2-min-003-stretch.wav"
+        >
       >
     >
-  >
-  <TRACK {5CF17AE9-0BEF-BF4A-8987-6198D05808B6}
-    NAME ""
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    FREEMODE 0
-    SEL 0
-    REC 0 0 1 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 -1 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {5CF17AE9-0BEF-BF4A-8987-6198D05808B6}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
     <ITEM
-      POSITION 1.34831460674157
+      POSITION 3.15625
       SNAPOFFS 0
-      LENGTH 2.03247191011236
-      LOOP 1
+      LENGTH 1.86875
+      LOOP 0
       ALLTAKES 0
-      FADEIN 1 1.4 0 1 0 0
-      FADEOUT 1 0.557568 0 1 0 0
+      FADEIN 1 0.3 0 1 0 0
+      FADEOUT 1 1.4 0 1 0 0
       MUTE 0 0
       SEL 0
-      IGUID {8DE5C244-3BB9-5C49-A2A8-AB76AC021E62}
-      IID 11
-      NAME 03-C3-maj-004-stretch.mp3.2
+      IGUID {C293735A-D157-0848-9DCD-11DA4B612B56}
+      IID 21
+      NAME 02-B2-min-004-stretch.wav.1
       VOLPAN 1 0 1 -1
-      SOFFS 0.89887640449438
+      SOFFS 2.77888888888889
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {F79240F8-C0B4-E248-8573-A142403E81DC}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/03-C3-maj-004-stretch.mp3" 0
+      GUID {753B5BDE-4CD2-C941-9075-B345F336BDF0}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/02-B2-min-004-stretch.wav"
+        >
       >
     >
     <ITEM
-      POSITION 6.1938202247191
+      POSITION 3.625
       SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
+      LENGTH 2.3375
+      LOOP 0
       ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
+      FADEIN 1 0.3 0 1 0 0
+      FADEOUT 1 1.4 0 1 0 0
       MUTE 0 0
       SEL 0
-      IGUID {B075B4CE-D39C-E24E-9921-3BA1BA98232E}
+      IGUID {911CC702-F994-934D-B131-42D1ED9A21FC}
+      IID 22
+      NAME 03-C3-maj-004-stretch.wav.2
+      VOLPAN 1 0 1 -1
+      SOFFS 2.62390022675737
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {077B8625-8CBC-A848-9E7C-D4969850971F}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/03-C3-maj-004-stretch.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 4.5625
+      SNAPOFFS 0
+      LENGTH 5.15
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.3 0 1 0 0
+      FADEOUT 1 1.4 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {68E945F9-4395-C44C-9A69-7181C399B9CF}
       IID 23
-      NAME 04-D3-maj-004-stretch.mp3.3
-      VOLPAN 1 0 0.699059 -1
-      SOFFS 0.80056179775281
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {6E3D5137-39AD-DE4F-A898-38FF39E31A9F}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3" 0
-      >
-    >
-  >
-  <TRACK {372A0794-197F-134A-84C3-6DF069A88139}
-    NAME ""
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    FREEMODE 0
-    SEL 0
-    REC 0 0 1 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 -1 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {372A0794-197F-134A-84C3-6DF069A88139}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 6.23595505617978
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {A4FB5785-D6FF-A54C-855E-0C6DDDFDD904}
-      IID 26
-      NAME 01-A2-min-003-stretch.mp3.7
+      NAME 08-A3-min-004-stretch.wav.3
       VOLPAN 1 0 1 -1
-      SOFFS 4.21348314606742
+      SOFFS 3.95888888888889
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {80BB6E88-95E8-E74F-94CC-95133ADDF62A}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
+      GUID {69011C4A-14EB-FC41-9515-C18038123D03}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/08-A3-min-004-stretch.wav"
+        >
       >
     >
     <ITEM
-      POSITION 6.27808988764045
+      POSITION 8.3125
       SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
+      LENGTH 2.80625
+      LOOP 0
       ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1.1 0.01 0.024777 1 1 0
+      FADEIN 1 0.3 0 1 0 0
+      FADEOUT 1 1.4 0 1 0 0
       MUTE 0 0
       SEL 0
-      IGUID {55278022-A1E6-3745-A4BA-0905A52F540E}
+      IGUID {F0A3E346-289C-AA4B-90D3-A950D6B793FE}
+      IID 24
+      NAME 01-A2-min-003-stretch.wav.4
+      VOLPAN 1 0 1 -1
+      SOFFS 6.03353741496599
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {40EA5761-7F1A-FE4C-8BB6-81578FA24B39}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/01-A2-min-003-stretch.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 9.71875
+      SNAPOFFS 0
+      LENGTH 1.86875
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.3 0 1 0 0
+      FADEOUT 1 1.4 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7007BDFD-9F5B-A14E-BA21-56202CF6F4D5}
       IID 25
-      NAME 04-D3-maj-004-stretch.mp3.3
-      VOLPAN 1 0 0.699059 -1
-      SOFFS 0.84269662921348
+      NAME 02-B2-min-004-stretch.wav.5
+      VOLPAN 1 0 1 -1
+      SOFFS 2.07888888888889
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {50C1EF50-3886-0D4A-AD17-108D8228C355}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3" 0
+      GUID {0689EDC8-2D55-444D-839C-B352862100DC}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/02-B2-min-004-stretch.wav"
+        >
       >
     >
     <ITEM
-      POSITION 6.29544743024136
+      POSITION 10.1875
       SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
+      LENGTH 2.3375
+      LOOP 0
       ALLTAKES 0
-      FADEIN 1.1 0.01 0.024777 1 1 0
-      FADEOUT 1.1 0.01 0.017358 1 1 0
+      FADEIN 1 0.3 0 1 0 0
+      FADEOUT 1 1.4 0 1 0 0
       MUTE 0 0
       SEL 0
-      IGUID {872A3E03-3E01-3B4F-99DC-948042200AF1}
-      IID 29
-      NAME 04-D3-maj-004-stretch.mp3.3
-      VOLPAN 1 0 0.699059 -1
-      SOFFS 0.92696629213483
+      IGUID {12716BD6-E881-744E-B9D6-6939688CC61C}
+      IID 26
+      NAME 03-C3-maj-004-stretch.wav.6
+      VOLPAN 1 0 1 -1
+      SOFFS 2.12390022675737
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {72F68BDD-7407-6A49-B09A-7BD0B1579024}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3" 0
+      GUID {2C049340-468F-F94C-9CEC-DD7F9168B88B}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/03-C3-maj-004-stretch.wav"
+        >
       >
     >
     <ITEM
-      POSITION 6.32022471910112
+      POSITION 11.125
       SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
+      LENGTH 5.15
+      LOOP 0
       ALLTAKES 0
-      FADEIN 1.1 0.01 0.017358 1 1 0
-      FADEOUT 1.1 0.01 0.008575 1 1 0
+      FADEIN 1 0.3 0 1 0 0
+      FADEOUT 1 1.4 0 1 0 0
       MUTE 0 0
       SEL 0
-      IGUID {1789AC46-6EA3-384A-A897-7CB36F6CCC35}
+      IGUID {0DF2A2E8-5712-5D44-A86B-04EC774A0B25}
       IID 27
-      NAME 04-D3-maj-004-stretch.mp3.3
-      VOLPAN 1 0 0.699059 -1
-      SOFFS 0.88483146067416
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {6F329AF5-F63D-3B4C-AEF5-235EAA588E15}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.35378474168832
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1.1 0.01 0.008575 1 1 0
-      FADEOUT 1.1 0.01 0.018173 1 1 0
-      MUTE 0 0
-      SEL 0
-      IGUID {59829A13-A964-D141-AC01-3F422ACC1B22}
-      IID 31
-      NAME 04-D3-maj-004-stretch.mp3.3
-      VOLPAN 1 0 0.699059 -1
-      SOFFS 0.96910112359551
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {557B5E2F-43B5-8C45-8722-2EFED24D95FD}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.37774705743626
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1.1 0.01 0.018173 1 1 0
-      FADEOUT 1.1 0.01 0.012493 1 1 0
-      MUTE 0 0
-      SEL 0
-      IGUID {BD89AA16-146C-0D40-81B1-6047C0178002}
-      IID 33
-      NAME 04-D3-maj-004-stretch.mp3.3
-      VOLPAN 1 0 0.699059 -1
-      SOFFS 1.01123595505618
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {36A70DB9-4725-C743-B7BD-8D95F740B138}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.40738876040185
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1.1 0.01 0.012493 1 1 0
-      FADEOUT 1.1 0.01 0.019186 1 1 0
-      MUTE 0 0
-      SEL 0
-      IGUID {88EFA715-F83D-C140-94FA-91A60E0C8580}
-      IID 36
-      NAME 04-D3-maj-004-stretch.mp3.3
-      VOLPAN 1 0 0.699059 -1
-      SOFFS 1.05337078651685
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {AA040290-1A15-2949-B0BB-AA4FB505F9D2}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.43033717560102
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1.1 0.01 0.019186 1 1 0
-      FADEOUT 1.1 0.01 0.016318 1 1 0
-      MUTE 0 0
-      SEL 0
-      IGUID {D4F2FBD6-FFE8-6746-AF86-5AAF44B6D10E}
-      IID 39
-      NAME 04-D3-maj-004-stretch.mp3.3
-      VOLPAN 1 0 0.699059 -1
-      SOFFS 1.09550561797753
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {5D439BD4-3B6E-1742-81FE-4F13D5E4001A}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.45615414270009
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1.1 0.01 0.016318 1 1 0
-      FADEOUT 1.1 0.01 0.025817 1 1 0
-      MUTE 0 0
-      SEL 0
-      IGUID {0E14528D-8726-9549-9C2B-9E7F376B5560}
-      IID 42
-      NAME 04-D3-maj-004-stretch.mp3.3
-      VOLPAN 1 0 0.699059 -1
-      SOFFS 1.1376404494382
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {362E802E-58AE-514A-B7D7-9CBD26B6F64E}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.4724720070617
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1.1 0.01 0.025817 1 1 0
-      FADEOUT 1.1 0.01 0.016318 1 1 0
-      MUTE 0 0
-      SEL 0
-      IGUID {745F3035-85B2-0E43-BC72-73C493F12CF0}
-      IID 45
-      NAME 04-D3-maj-004-stretch.mp3.3
-      VOLPAN 1 0 0.699059 -1
-      SOFFS 1.17977528089888
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {E89E7ED5-1303-F54D-8F53-6A08C155AFFC}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.49828897416077
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1.1 0.01 0.016318 1 1 0
-      FADEOUT 1.1 0.01 0.016381 1 1 0
-      MUTE 0 0
-      SEL 0
-      IGUID {161605D8-EC8B-2A48-A983-9BC855E829D6}
-      IID 37
-      NAME 01-A2-min-003-stretch.mp3.7
+      NAME 07-G3-maj-002-stretch.wav.7
       VOLPAN 1 0 1 -1
-      SOFFS 4.42415730337079
+      SOFFS 5.55447845804988
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {217AB710-3F07-0F4F-8DEF-9B46B1342C50}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
+      GUID {37CAE4A1-0900-8343-AD50-BDD978B3ECC4}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/07-G3-maj-002-stretch.wav"
+        >
       >
     >
     <ITEM
-      POSITION 6.52404320433097
+      POSITION 14.875
       SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
+      LENGTH 2.80625
+      LOOP 0
       ALLTAKES 0
-      FADEIN 1.1 0.010732 0.016381 1 1 0
-      FADEOUT 1 0 0 1 0 0
+      FADEIN 1 0.3 0 1 0 0
+      FADEOUT 1 1.4 0 1 0 0
       MUTE 0 0
       SEL 0
-      IGUID {67FCD96C-65B1-E54E-A4B8-29F4E3FC282A}
+      IGUID {6DB6B15B-67FC-4A4D-9D98-6BD9304BDA14}
       IID 28
-      NAME 01-A2-min-003-stretch.mp3.7
+      NAME 01-A2-min-003-stretch.wav.8
       VOLPAN 1 0 1 -1
-      SOFFS 4.25561797752809
+      SOFFS 6.03353741496599
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
-      GUID {9D7A5799-C6CD-0F49-B2F8-84021BFC7A78}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
+      GUID {146EC7D3-465B-3E4F-AAFD-A9BD6A6C4AEF}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/01-A2-min-003-stretch.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 16.28125
+      SNAPOFFS 0
+      LENGTH 2.3375
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.3 0 1 0 0
+      FADEOUT 1 1.4 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D9554F2E-CD84-3D49-A2F4-FE25B8E658FC}
+      IID 29
+      NAME 02-B2-min-004-stretch.wav.9
+      VOLPAN 1 0 1 -1
+      SOFFS 1.37888888888889
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3D01B7B6-9457-9B4F-A270-42BC7B5546F3}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/02-B2-min-004-stretch.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 17.21875
+      SNAPOFFS 0
+      LENGTH 1.86875
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.3 0 1 0 0
+      FADEOUT 1 1.4 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CDDBE9EB-E731-FE4E-B348-ECA52FC370D0}
+      IID 30
+      NAME 03-C3-maj-004-stretch.wav.10
+      VOLPAN 1 0 1 -1
+      SOFFS 1.62390022675737
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9D55FBD6-248A-0E49-A8D9-7819F7CB47CA}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/03-C3-maj-004-stretch.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 17.6875
+      SNAPOFFS 0
+      LENGTH 5.15
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.3 0 1 0 0
+      FADEOUT 1.1 1.4 1.275 1 1 0
+      MUTE 0 0
+      SEL 0
+      IGUID {76A2C41E-00C8-C04A-BA81-59EE2A37FCF8}
+      IID 31
+      NAME 05-E3-min-005-stretch.wav.11
+      VOLPAN 1 0 1 -1
+      SOFFS 3.32380952380952
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4A58A59D-7B8E-3147-A4A4-C6C68B43276C}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/05-E3-min-005-stretch.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 21.5625
+      SNAPOFFS 0
+      LENGTH 10.3125
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1.1 0.3 1.275 1 1 0
+      FADEOUT 1 5.198936 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9C93149B-4746-D046-BA41-C9999F32247A}
+      IID 33
+      NAME 03-C3-maj-004-stretch.wav.13
+      VOLPAN 1 0 1 -1
+      SOFFS 1.12390022675737
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D5535E15-2CE2-C84E-A17F-95B18394C6DC}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/03-C3-maj-004-stretch.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 34.5625
+      SNAPOFFS 0
+      LENGTH 7.9625
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.3 0 1 0 0
+      FADEOUT 1 1.4 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {99098EF6-18CA-0D40-A640-CE251F8FFB3D}
+      IID 34
+      NAME 04-D3-maj-004-stretch.wav.14
+      VOLPAN 1 0 1 -1
+      SOFFS 2.42385487528345
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BB18925E-B497-0E4D-B204-BCACC091EA0F}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/04-D3-maj-004-stretch.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 41.125
+      SNAPOFFS 0
+      LENGTH 7.9625
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.3 0 1 0 0
+      FADEOUT 1 1.4 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5EB50D84-EFA8-1449-9345-8589B1EABB56}
+      IID 35
+      NAME 05-E3-min-005-stretch.wav.15
+      VOLPAN 1 0 1 -1
+      SOFFS 3.32380952380952
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {80904564-F009-F642-A5AF-4F2F4991E0D6}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/05-E3-min-005-stretch.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 47.6875
+      SNAPOFFS 0
+      LENGTH 7.9625
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.3 0 1 0 0
+      FADEOUT 1 1.4 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7C5B8F9F-7084-7942-A1E3-C0EFABC3FD2D}
+      IID 36
+      NAME 06-Fs3-min-005-stretch.wav.16
+      VOLPAN 1 0 1 -1
+      SOFFS 4.31877551020408
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A3FF6175-1814-B54D-97DF-52262356DBA3}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/06-Fs3-min-005-stretch.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 54.25
+      SNAPOFFS 0
+      LENGTH 7.9625
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.3 0 1 0 0
+      FADEOUT 1 1.4 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FDDCC8FE-8990-4048-98DD-4B7EA91BAF82}
+      IID 37
+      NAME 07-G3-maj-002-stretch.wav.17
+      VOLPAN 1 0 1 -1
+      SOFFS 4.95447845804989
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2233B02F-E38A-A547-9495-76014D546E96}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/07-G3-maj-002-stretch.wav"
+        >
+      >
+    >
+    <ITEM
+      POSITION 60.8125
+      SNAPOFFS 0
+      LENGTH 8.29
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0.3 0 1 0 0
+      FADEOUT 1 1.4 0 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C1E3EECF-326E-6949-8D6F-33C0BE3FA3E3}
+      IID 38
+      NAME 08-A3-min-004-stretch.wav.18
+      VOLPAN 1 0 1 -1
+      SOFFS 3.35888888888889
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {115C9039-0350-5D40-9AE1-F02881191842}
+      <SOURCE SECTION
+        LENGTH 0
+        MODE 3
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE WAVE
+          FILE "/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/08-A3-min-004-stretch.wav"
+        >
       >
     >
   >
-  <TRACK {67EF5B0E-A352-CF47-B22D-D2573D86AE7E}
+  <TRACK {12035B65-6EED-BD46-B7D1-AAA8020DFCF6}
     NAME ""
     PEAKCOL 16576
     BEAT -1
@@ -797,797 +1103,7 @@
     INQ 0 0 0 0.5 100 0 0 100
     NCHAN 2
     FX 1
-    TRACKID {67EF5B0E-A352-CF47-B22D-D2573D86AE7E}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 0.44943820224719
-      SNAPOFFS 0
-      LENGTH 1.57303370786517
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.679305 0 1 0 0
-      FADEOUT 1 0.080998 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {1EB2024C-AC57-CB4A-B26F-64844621F7D9}
-      IID 14
-      NAME 04-D3-maj-004-stretch.mp3.5
-      VOLPAN 1 0 0.699059 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {14F4D8AB-86F9-1148-8CAD-8EF7B34C3ADF}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.06741573033708
-      SNAPOFFS 0
-      LENGTH 0.12640449438202
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {C1A34C86-D7F2-1949-86EF-017D3E8B2907}
-      IID 20
-      NAME 04-D3-maj-004-stretch.mp3.3
-      VOLPAN 1 0 0.699059 -1
-      SOFFS 0.67415730337079
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {9ED3B540-5794-C542-B228-0A749C2E90C0}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.61516853932584
-      SNAPOFFS 0
-      LENGTH 0.12640449438202
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {779F48A9-61A6-2E44-98EF-8788F18FC2DE}
-      IID 48
-      NAME 04-D3-maj-004-stretch.mp3.3
-      VOLPAN 1 0 0.699059 -1
-      SOFFS 1.22191011235955
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {ECDD6C32-6018-8D4F-9505-51B91F8A572E}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3" 0
-      >
-    >
-  >
-  <TRACK {A132E4F2-5396-834F-8DF8-A90436F71C2A}
-    NAME ""
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    FREEMODE 0
-    SEL 0
-    REC 0 0 1 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 -1 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {A132E4F2-5396-834F-8DF8-A90436F71C2A}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 2.02247191011236
-      SNAPOFFS 0
-      LENGTH 4.17134831460674
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {E5C5E3C8-A47A-B646-976A-2E4138B246A6}
-      IID 16
-      NAME 01-A2-min-003-stretch.mp3.7
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {2696D292-2E4B-2542-AF1E-A8DC7639AB98}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.1938202247191
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {BEF7C5C7-06CC-F44C-9953-58CC8687C845}
-      IID 24
-      NAME 01-A2-min-003-stretch.mp3.7
-      VOLPAN 1 0 1 -1
-      SOFFS 4.17134831460674
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {E7B3181F-613A-7048-93FB-AFAE24F1E755}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.32022471910112
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {C2C4A81D-21FB-6045-8ED4-C5D9D66930F8}
-      IID 30
-      NAME 01-A2-min-003-stretch.mp3.7
-      VOLPAN 1 0 1 -1
-      SOFFS 4.29775280898876
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {017954B7-D017-2141-8690-2D3812FBF9CB}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.3623595505618
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {5987D77A-5885-ED42-880D-ED0CE5619755}
-      IID 32
-      NAME 01-A2-min-003-stretch.mp3.7
-      VOLPAN 1 0 1 -1
-      SOFFS 4.33988764044944
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {8734A702-2619-F24B-B9C5-293348C10CDA}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.40449438202247
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {A3283EC3-5524-2442-8283-0640611FABC4}
-      IID 34
-      NAME 01-A2-min-003-stretch.mp3.7
-      VOLPAN 1 0 1 -1
-      SOFFS 4.38202247191011
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {2395BB75-F65B-5945-ACD1-47DF121B0B1F}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.48876404494382
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {A7DB3BE3-0A06-5E44-A7D1-FBA5229C4097}
-      IID 40
-      NAME 01-A2-min-003-stretch.mp3.7
-      VOLPAN 1 0 1 -1
-      SOFFS 4.46629213483146
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {E24B3400-5391-A24D-8DCB-FF50D58EDAF5}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.53089887640449
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {435A0894-5D8A-4B47-8CEB-DC83DB1ED6D2}
-      IID 43
-      NAME 01-A2-min-003-stretch.mp3.7
-      VOLPAN 1 0 1 -1
-      SOFFS 4.50842696629213
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {60EBB9A3-2957-F440-9B3F-4648042141A6}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.57303370786517
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {B22436DB-682E-A348-95E9-DF7AEF732DE3}
-      IID 46
-      NAME 01-A2-min-003-stretch.mp3.7
-      VOLPAN 1 0 1 -1
-      SOFFS 4.55056179775281
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {991B104E-19FF-2048-94C5-BF3D58D4C892}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.61516853932584
-      SNAPOFFS 0
-      LENGTH 11.57709928915387
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {B5875F29-1E92-914C-8089-687C2D1CB7FD}
-      IID 49
-      NAME 01-A2-min-003-stretch.mp3.7
-      VOLPAN 1 0 1 -1
-      SOFFS 4.59269662921348
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {8C50F35F-9972-C543-9A3A-C917FE77D38E}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 28.31460674157303
-      SNAPOFFS 0
-      LENGTH 12.12390022675737
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0
-      FADEOUT 1 4.480794 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {2D998C4A-1975-0642-B913-47DEB0649C54}
-      IID 53
-      NAME 03-C3-maj-004-stretch.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {13701DE7-F08E-5E4E-98C3-BCE804C8C38E}
-      <SOURCE SECTION
-        LENGTH 0
-        MODE 3
-        STARTPOS 0
-        OVERLAP 0.01
-        <SOURCE MP3
-          FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/03-C3-maj-004-stretch.mp3" 1
-        >
-      >
-    >
-  >
-  <TRACK {95D0179F-85B8-9F4F-ADBA-5023F2FA429E}
-    NAME ""
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    FREEMODE 0
-    SEL 0
-    REC 0 0 1 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 -1 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {95D0179F-85B8-9F4F-ADBA-5023F2FA429E}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 7.41573033707865
-      SNAPOFFS 0
-      LENGTH 0.67415730337079
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.050584 0 1 0 0
-      FADEOUT 1 0.044826 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {F0E7C685-7808-0143-A3C4-1DFCAFE6968A}
-      IID 21
-      NAME 04-D3-maj-004-stretch.mp3.5
-      VOLPAN 1 0 0.699059 -1
-      SOFFS 3.59550561797753
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {E00DFE94-95F5-DE49-8C62-BFEA641C144F}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 20.56179775286
-      SNAPOFFS 0
-      LENGTH 12.24888888888888
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {0199ABCC-3999-AD4D-A279-284D6719F9FB}
-      IID 52
-      NAME 02-B2-min-004-stretch.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {051D35C3-64F0-0A48-9390-174668B78792}
-      <SOURCE SECTION
-        LENGTH 0
-        MODE 3
-        STARTPOS 0
-        OVERLAP 0.01
-        <SOURCE MP3
-          FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/02-B2-min-004-stretch.mp3" 1
-        >
-      >
-    >
-    <ITEM
-      POSITION 39.10112359550562
-      SNAPOFFS 0
-      LENGTH 11.46067415730337
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0
-      FADEOUT 1 0.085755 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {49769977-2D2E-474C-BB83-0EECD5D4F19E}
-      IID 54
-      NAME 04-D3-maj-004-stretch.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {EBDECAB0-1ED4-FC4E-A930-673453E43097}
-      <SOURCE SECTION
-        LENGTH 0
-        MODE 3
-        STARTPOS 0
-        OVERLAP 0.01
-        <SOURCE MP3
-          FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3" 1
-        >
-      >
-    >
-    <ITEM
-      POSITION 50.56179775280899
-      SNAPOFFS 0
-      LENGTH 13.4987755102041
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {063E2B35-F81A-3E46-8C4D-1D7D2D475C4A}
-      IID 56
-      NAME 06-Fs3-min-005-stretch.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {26369ABD-CDA8-FE48-A766-279599302669}
-      <SOURCE SECTION
-        LENGTH 0
-        MODE 3
-        STARTPOS 0
-        OVERLAP 0.01
-        <SOURCE MP3
-          FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/06-Fs3-min-005-stretch.mp3" 1
-        >
-      >
-    >
-    <ITEM
-      POSITION 74.49438202247192
-      SNAPOFFS 0
-      LENGTH 12.2488888888888
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0
-      FADEOUT 1.1 0 0.788215 1 1 0
-      MUTE 0 0
-      SEL 0
-      IGUID {04945D13-7289-2A42-9395-1ED8DBC37424}
-      IID 58
-      NAME 08-A3-min-004-stretch.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {6682B7E4-AD9E-8E49-9827-1E41D326B3B4}
-      <SOURCE SECTION
-        LENGTH 0
-        MODE 3
-        STARTPOS 0
-        OVERLAP 0.01
-        <SOURCE MP3
-          FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/08-A3-min-004-stretch.mp3" 1
-        >
-      >
-    >
-    <ITEM
-      POSITION 85.95505617977528
-      SNAPOFFS 0
-      LENGTH 23.74784580498869
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1.1 0 0.788215 1 1 0
-      FADEOUT 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {07AEB491-BE23-224A-B74B-1A54C39C2832}
-      IID 59
-      NAME 09-A3-min-001-stretch.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {457368B1-2E12-064B-9AB2-EE6EF5A45167}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/09-A3-min-001-stretch.mp3" 1
-      >
-    >
-  >
-  <TRACK {FE8B1E3C-B982-3147-94DC-C8E0AE27AA4E}
-    NAME ""
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    FREEMODE 0
-    SEL 0
-    REC 0 0 1 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 -1 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {FE8B1E3C-B982-3147-94DC-C8E0AE27AA4E}
-    PERF 0
-    MIDIOUT -1
-    MAINSEND 1 0
-    <ITEM
-      POSITION 6.32022471910112
-      SNAPOFFS 0
-      LENGTH 0.08426966292135
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {FDBEF4A5-EF6C-5848-9C25-B780643D9997}
-      IID 22
-      NAME 01-A2-min-003-stretch.mp3.7
-      VOLPAN 1 0 1 -1
-      SOFFS 3.59550561797753
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {C62CA49C-5BA9-C343-A32D-AE9333D8E37F}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.40449438202247
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {E941B023-57BC-8C4E-A3EC-9BC97A6A8E40}
-      IID 35
-      NAME 01-A2-min-003-stretch.mp3.7
-      VOLPAN 1 0 1 -1
-      SOFFS 3.67977528089888
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {1E63B175-00E7-6945-B45F-B3684DEA3AFE}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.44662921348315
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {27DE10EB-5D7D-6D45-A5EF-0A5F5904A782}
-      IID 38
-      NAME 01-A2-min-003-stretch.mp3.7
-      VOLPAN 1 0 1 -1
-      SOFFS 3.72191011235955
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {13B8D5C0-7B84-5140-B2C9-655B56D45703}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.48876404494382
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {38F49278-D6CF-E244-8D8D-F7074834F736}
-      IID 41
-      NAME 01-A2-min-003-stretch.mp3.7
-      VOLPAN 1 0 1 -1
-      SOFFS 3.76404494382022
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {FE3B5051-3770-8140-B31E-2EA152FCED7E}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.53089887640449
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {0B1289CB-7E03-254E-AE6E-1A889A1627E8}
-      IID 44
-      NAME 01-A2-min-003-stretch.mp3.7
-      VOLPAN 1 0 1 -1
-      SOFFS 3.8061797752809
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {770216EA-DDFE-7F4A-877F-A6BEF181620A}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.57303370786517
-      SNAPOFFS 0
-      LENGTH 0.04213483146067
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {2CED0545-5A5A-604D-A6CE-55D3396E2374}
-      IID 47
-      NAME 01-A2-min-003-stretch.mp3.7
-      VOLPAN 1 0 1 -1
-      SOFFS 3.84831460674157
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {64B4EF98-85B1-E04F-887D-09CA8F13681C}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 6.61516853932584
-      SNAPOFFS 0
-      LENGTH 0.37921348314607
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0.01 0 1 0 0
-      FADEOUT 1 0.01 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {434B3EB9-F2EC-1D4E-83A7-53783DBE96B5}
-      IID 50
-      NAME 01-A2-min-003-stretch.mp3.7
-      VOLPAN 1 0 1 -1
-      SOFFS 3.89044943820225
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {6E49162F-0CBD-6C4C-AC83-A949900374DB}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 0
-      >
-    >
-    <ITEM
-      POSITION 20.56179775286
-      SNAPOFFS 0
-      LENGTH 10.44943820219618
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {BE6D7C39-49C2-4E40-A1CF-F0CCA216C3FE}
-      IID 51
-      NAME 01-A2-min-003-stretch.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {BEF4C513-E0D9-9A41-9FF4-7CA3D0F47B4B}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3" 1
-      >
-    >
-    <ITEM
-      POSITION 35.0561797752809
-      SNAPOFFS 0
-      LENGTH 13.12380952380949
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 2.568368 0 1 0 0
-      FADEOUT 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {CB8FEEB2-E394-C74D-85BC-FF0B34606EE8}
-      IID 55
-      NAME 05-E3-min-005-stretch.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {2A092076-F126-8545-B554-4E2F1EC3598B}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/05-E3-min-005-stretch.mp3" 1
-      >
-    >
-    <ITEM
-      POSITION 50.44737942839063
-      SNAPOFFS 0
-      LENGTH 12.12390022675739
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {2CDD25F0-363D-6147-B496-E8E74CB70451}
-      IID 60
-      NAME 03-C3-maj-004-stretch.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {B7B99D54-6723-7D45-B17C-94C597EB4FEC}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/03-C3-maj-004-stretch.mp3" 1
-      >
-    >
-    <ITEM
-      POSITION 63.93139407324198
-      SNAPOFFS 0
-      LENGTH 22.62947845804986
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0
-      FADEOUT 1 0 0 1 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {F01290D6-B525-9B49-899F-B401901D5D18}
-      IID 57
-      NAME 07-G3-maj-002-stretch.mp3
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {0D41EB4E-6924-A849-BF65-F718B07B0AFC}
-      <SOURCE MP3
-        FILE "/Users/charles/projects/cybr/g3rd/mp3-g-10ths-stretch/07-G3-maj-002-stretch.mp3" 1
-      >
-    >
-  >
-  <TRACK {C0C7CA0F-1FBF-384B-8314-7360555A3A20}
-    NAME 01-A2-min-003-stretch
-    PEAKCOL 16576
-    BEAT -1
-    AUTOMODE 0
-    VOLPAN 1 0 -1 -1 1
-    MUTESOLO 0 0 0
-    IPHASE 0
-    PLAYOFFS 0 1
-    ISBUS 0 0
-    BUSCOMP 0 0 0 0 0
-    SHOWINMIX 1 0.6667 0.5 1 0.5 -1 -1 -1
-    FREEMODE 0
-    SEL 0
-    REC 0 0 1 0 0 0 0
-    VU 2
-    TRACKHEIGHT 0 0 0 0 -1 0
-    INQ 0 0 0 0.5 100 0 0 100
-    NCHAN 2
-    FX 1
-    TRACKID {C0C7CA0F-1FBF-384B-8314-7360555A3A20}
+    TRACKID {12035B65-6EED-BD46-B7D1-AAA8020DFCF6}
     PERF 0
     MIDIOUT -1
     MAINSEND 1 0
