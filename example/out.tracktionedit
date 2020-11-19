@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<EDIT appVersion="Unknown" projectID="0/23ab524" creationTime="1605310710963"
-      lastSignificantChange="175c3f98548" modifiedBy="Charles Holbrow">
+<EDIT appVersion="Unknown" projectID="0/200033f" creationTime="1605752134847"
+      lastSignificantChange="175de491dbe" modifiedBy="Charles Holbrow">
   <TRANSPORT loopPoint1="0.0" loopPoint2="0.0"/>
   <MACROPARAMETERS id="1001"/>
   <TEMPOSEQUENCE>
-    <TEMPO startBeat="0.0" bpm="89.0" curve="1.0"/>
+    <TEMPO startBeat="0.0" bpm="64.0" curve="1.0"/>
     <TIMESIG numerator="4" denominator="4" startBeat="0.0"/>
   </TEMPOSEQUENCE>
   <PITCHSEQUENCE>
@@ -158,6 +158,142 @@
       <CONNECTION src="1097" dst="0" srcPin="2" dstPin="2"/>
       <CONNECTION src="0" dst="0" srcPin="0" dstPin="0"/>
     </RACK>
+    <RACK id="1140" name="width">
+      <MACROPARAMETERS id="1142"/>
+      <WINDOWSTATE windowPos=""/>
+      <OUTPUT name="midi output"/>
+      <OUTPUT name="output 1 (left)"/>
+      <OUTPUT name="output 2 (right)"/>
+      <INPUT name="midi input"/>
+      <INPUT name="input 1 (left)"/>
+      <INPUT name="input 2 (right)"/>
+      <MODIFIERS/>
+      <PLUGININSTANCE x="0.8500000238418579" y="0.5">
+        <PLUGIN type="volume" windowLocked="1" id="1144" enabled="1">
+          <MACROPARAMETERS id="1145"/>
+          <MODIFIERASSIGNMENTS/>
+        </PLUGIN>
+      </PLUGININSTANCE>
+      <PLUGININSTANCE x="0.1500000059604645" y="0.3499999940395355">
+        <PLUGIN type="volume" windowLocked="1" id="1146" enabled="1" volume="0.5482466816902161">
+          <MACROPARAMETERS id="1147"/>
+          <MODIFIERASSIGNMENTS>
+            <MACRO source="1164" paramID="pan" value="-1.0" offset="0.5"/>
+          </MODIFIERASSIGNMENTS>
+        </PLUGIN>
+      </PLUGININSTANCE>
+      <PLUGININSTANCE x="0.1500000059604645" y="0.6000000238418579">
+        <PLUGIN type="volume" windowLocked="1" id="1148" enabled="1" volume="0.5482466816902161">
+          <MACROPARAMETERS id="1149"/>
+          <MODIFIERASSIGNMENTS>
+            <MACRO source="1164" paramID="pan" value="1.0" offset="-0.5"/>
+          </MODIFIERASSIGNMENTS>
+        </PLUGIN>
+      </PLUGININSTANCE>
+      <PLUGININSTANCE x="0.6000000238418579" y="0.3499999940395355">
+        <PLUGIN type="volume" windowLocked="1" id="1150" enabled="1" volume="0.5482466816902161">
+          <MACROPARAMETERS id="1151"/>
+          <MODIFIERASSIGNMENTS>
+            <MACRO source="1166" paramID="pan" value="-1.0" offset="0.5"/>
+          </MODIFIERASSIGNMENTS>
+        </PLUGIN>
+      </PLUGININSTANCE>
+      <PLUGININSTANCE x="0.6000000238418579" y="0.6000000238418579">
+        <PLUGIN type="volume" windowLocked="1" id="1152" enabled="1" volume="0.5482466816902161">
+          <MACROPARAMETERS id="1153"/>
+          <MODIFIERASSIGNMENTS>
+            <MACRO source="1166" paramID="pan" value="1.0" offset="-0.5"/>
+          </MODIFIERASSIGNMENTS>
+        </PLUGIN>
+      </PLUGININSTANCE>
+      <CONNECTION src="0" dst="1146" srcPin="1" dstPin="1"/>
+      <CONNECTION src="0" dst="1146" srcPin="1" dstPin="2"/>
+      <CONNECTION src="0" dst="1148" srcPin="2" dstPin="1"/>
+      <CONNECTION src="0" dst="1148" srcPin="2" dstPin="2"/>
+      <CONNECTION src="1146" dst="1150" srcPin="1" dstPin="1"/>
+      <CONNECTION src="1146" dst="1150" srcPin="1" dstPin="2"/>
+      <CONNECTION src="1146" dst="1152" srcPin="2" dstPin="1"/>
+      <CONNECTION src="1146" dst="1152" srcPin="2" dstPin="2"/>
+      <CONNECTION src="1148" dst="1150" srcPin="1" dstPin="1"/>
+      <CONNECTION src="1148" dst="1150" srcPin="1" dstPin="2"/>
+      <CONNECTION src="1148" dst="1152" srcPin="2" dstPin="1"/>
+      <CONNECTION src="1148" dst="1152" srcPin="2" dstPin="2"/>
+      <CONNECTION src="1150" dst="1144" srcPin="1" dstPin="1"/>
+      <CONNECTION src="1150" dst="1144" srcPin="2" dstPin="2"/>
+      <CONNECTION src="1152" dst="1144" srcPin="1" dstPin="1"/>
+      <CONNECTION src="1152" dst="1144" srcPin="2" dstPin="2"/>
+      <CONNECTION src="1144" dst="0" srcPin="1" dstPin="1"/>
+      <CONNECTION src="1144" dst="0" srcPin="2" dstPin="2"/>
+      <CONNECTION src="0" dst="0" srcPin="0" dstPin="0"/>
+    </RACK>
+    <RACK id="1187" name="width">
+      <MACROPARAMETERS id="1189"/>
+      <WINDOWSTATE windowPos=""/>
+      <OUTPUT name="midi output"/>
+      <OUTPUT name="output 1 (left)"/>
+      <OUTPUT name="output 2 (right)"/>
+      <INPUT name="midi input"/>
+      <INPUT name="input 1 (left)"/>
+      <INPUT name="input 2 (right)"/>
+      <MODIFIERS/>
+      <PLUGININSTANCE x="0.8500000238418579" y="0.5">
+        <PLUGIN type="volume" windowLocked="1" id="1191" enabled="1">
+          <MACROPARAMETERS id="1192"/>
+          <MODIFIERASSIGNMENTS/>
+        </PLUGIN>
+      </PLUGININSTANCE>
+      <PLUGININSTANCE x="0.1500000059604645" y="0.3499999940395355">
+        <PLUGIN type="volume" windowLocked="1" id="1193" enabled="1" volume="0.5482466816902161">
+          <MACROPARAMETERS id="1194"/>
+          <MODIFIERASSIGNMENTS>
+            <MACRO source="1211" paramID="pan" value="-1.0" offset="0.5"/>
+          </MODIFIERASSIGNMENTS>
+        </PLUGIN>
+      </PLUGININSTANCE>
+      <PLUGININSTANCE x="0.1500000059604645" y="0.6000000238418579">
+        <PLUGIN type="volume" windowLocked="1" id="1195" enabled="1" volume="0.5482466816902161">
+          <MACROPARAMETERS id="1196"/>
+          <MODIFIERASSIGNMENTS>
+            <MACRO source="1211" paramID="pan" value="1.0" offset="-0.5"/>
+          </MODIFIERASSIGNMENTS>
+        </PLUGIN>
+      </PLUGININSTANCE>
+      <PLUGININSTANCE x="0.6000000238418579" y="0.3499999940395355">
+        <PLUGIN type="volume" windowLocked="1" id="1197" enabled="1" volume="0.5482466816902161">
+          <MACROPARAMETERS id="1198"/>
+          <MODIFIERASSIGNMENTS>
+            <MACRO source="1213" paramID="pan" value="-1.0" offset="0.5"/>
+          </MODIFIERASSIGNMENTS>
+        </PLUGIN>
+      </PLUGININSTANCE>
+      <PLUGININSTANCE x="0.6000000238418579" y="0.6000000238418579">
+        <PLUGIN type="volume" windowLocked="1" id="1199" enabled="1" volume="0.5482466816902161">
+          <MACROPARAMETERS id="1200"/>
+          <MODIFIERASSIGNMENTS>
+            <MACRO source="1213" paramID="pan" value="1.0" offset="-0.5"/>
+          </MODIFIERASSIGNMENTS>
+        </PLUGIN>
+      </PLUGININSTANCE>
+      <CONNECTION src="0" dst="1193" srcPin="1" dstPin="1"/>
+      <CONNECTION src="0" dst="1193" srcPin="1" dstPin="2"/>
+      <CONNECTION src="0" dst="1195" srcPin="2" dstPin="1"/>
+      <CONNECTION src="0" dst="1195" srcPin="2" dstPin="2"/>
+      <CONNECTION src="1193" dst="1197" srcPin="1" dstPin="1"/>
+      <CONNECTION src="1193" dst="1197" srcPin="1" dstPin="2"/>
+      <CONNECTION src="1193" dst="1199" srcPin="2" dstPin="1"/>
+      <CONNECTION src="1193" dst="1199" srcPin="2" dstPin="2"/>
+      <CONNECTION src="1195" dst="1197" srcPin="1" dstPin="1"/>
+      <CONNECTION src="1195" dst="1197" srcPin="1" dstPin="2"/>
+      <CONNECTION src="1195" dst="1199" srcPin="2" dstPin="1"/>
+      <CONNECTION src="1195" dst="1199" srcPin="2" dstPin="2"/>
+      <CONNECTION src="1197" dst="1191" srcPin="1" dstPin="1"/>
+      <CONNECTION src="1197" dst="1191" srcPin="2" dstPin="2"/>
+      <CONNECTION src="1199" dst="1191" srcPin="1" dstPin="1"/>
+      <CONNECTION src="1199" dst="1191" srcPin="2" dstPin="2"/>
+      <CONNECTION src="1191" dst="0" srcPin="1" dstPin="1"/>
+      <CONNECTION src="1191" dst="0" srcPin="2" dstPin="2"/>
+      <CONNECTION src="0" dst="0" srcPin="0" dstPin="0"/>
+    </RACK>
   </RACKS>
   <MASTERPLUGINS/>
   <AUXBUSNAMES/>
@@ -182,7 +318,406 @@
     <MACROPARAMETERS id="1037"/>
     <MODIFIERS/>
   </CHORDTRACK>
-  <TRACK id="1013" midiVProp="0.28125" midiVOffset="0.359375" name="g10A">
+  <FOLDERTRACK id="1013" name="G3">
+    <TRACK id="1080" midiVProp="0.28125" midiVOffset="0.359375" name="G3-g">
+      <MACROPARAMETERS id="1082">
+        <MACROPARAMETER id="1117" name="width" value="1.0"/>
+        <MODIFIERASSIGNMENTS/>
+        <MACROPARAMETER id="1119" name="width automation" value="1.0"/>
+        <MACROPARAMETER id="1121" name="pan automation" value="0.5"/>
+      </MACROPARAMETERS>
+      <MODIFIERS/>
+      <AUDIOCLIP name="sA2-min-002.wav.0" start="6.5625" length="1.416249945759773"
+                 offset="0.119999997317791" id="1222" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/A2-min-002.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.05000000074505806"
+                 fadeOut="0.009999999776482582">
+        <LOOPINFO rootNote="-1" numBeats="3.135951625094482" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sB2-min-001.wav.1" start="7.96875" length="0.4787500016391277"
+                 offset="0.119999997317791" id="1226" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/B2-min-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.05000000074505806"
+                 fadeOut="0.009999999776482582">
+        <LOOPINFO rootNote="-1" numBeats="2.391848828420257" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sC3-maj-001.wav.2" start="8.4375" length="0.9474999457597733"
+                 offset="0.119999997317791" id="1230" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/C3-maj-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.05000000074505806"
+                 fadeOut="0.009999999776482582">
+        <LOOPINFO rootNote="-1" numBeats="2.68367044595616" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sA3-min-004.wav.3" start="9.375" length="1.407550983130932"
+                 offset="0.119999997317791" id="1234" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/A3-min-004.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.05000000074505806"
+                 fadeOut="0.009999999776482582">
+        <LOOPINFO rootNote="-1" numBeats="1.629387755102041" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sA2-min-002.wav.4" start="13.125" length="1.416249945759773"
+                 offset="0.119999997317791" id="1238" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/A2-min-002.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.05000000074505806"
+                 fadeOut="0.009999999776482582">
+        <LOOPINFO rootNote="-1" numBeats="3.135951625094482" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sB2-min-001.wav.5" start="14.53125" length="0.4787500016391277"
+                 offset="0.119999997317791" id="1242" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/B2-min-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.05000000074505806"
+                 fadeOut="0.009999999776482582">
+        <LOOPINFO rootNote="-1" numBeats="2.391848828420257" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sC3-maj-001.wav.6" start="15.0" length="0.9474999457597733"
+                 offset="0.119999997317791" id="1246" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/C3-maj-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.05000000074505806"
+                 fadeOut="0.009999999776482582">
+        <LOOPINFO rootNote="-1" numBeats="2.68367044595616" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sG3-maj-001.wav.7" start="15.9375" length="2.003968209028244"
+                 offset="0.119999997317791" id="1250" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/G3-maj-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.05000000074505806"
+                 fadeOut="0.009999999776482582">
+        <LOOPINFO rootNote="-1" numBeats="2.265566137566138" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sA2-min-002.wav.8" start="19.6875" length="1.416249945759773"
+                 offset="0.119999997317791" id="1254" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/A2-min-002.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.05000000074505806"
+                 fadeOut="0.009999999776482582">
+        <LOOPINFO rootNote="-1" numBeats="3.135951625094482" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sB2-min-001.wav.9" start="21.09375" length="0.9474999457597733"
+                 offset="0.119999997317791" id="1258" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/B2-min-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.05000000074505806"
+                 fadeOut="0.009999999776482582">
+        <LOOPINFO rootNote="-1" numBeats="2.391848828420257" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sC3-maj-001.wav.10" start="22.03125" length="0.4787500016391277"
+                 offset="0.119999997317791" id="1262" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/C3-maj-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.05000000074505806"
+                 fadeOut="0.009999999776482582">
+        <LOOPINFO rootNote="-1" numBeats="2.68367044595616" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sE3-min-001.wav.11" start="22.5" length="2.300340235233307"
+                 offset="0.119999997317791" id="1266" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/E3-min-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.05000000074505806"
+                 fadeOut="0.009999999776482582">
+        <LOOPINFO rootNote="-1" numBeats="2.581696145124717" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <PLUGIN type="rack" rackType="1093" cybr-width="T" id="1123" enabled="1">
+        <MACROPARAMETERS id="1124"/>
+        <MODIFIERASSIGNMENTS/>
+      </PLUGIN>
+      <PLUGIN type="volume" id="1085" enabled="1" remapOnTempoChange="1">
+        <MACROPARAMETERS id="1086"/>
+        <MODIFIERASSIGNMENTS>
+          <MACRO source="1121" paramID="pan" value="1.0" offset="-0.5"/>
+        </MODIFIERASSIGNMENTS>
+      </PLUGIN>
+      <PLUGIN type="level" id="1089" enabled="1">
+        <MACROPARAMETERS id="1090"/>
+      </PLUGIN>
+      <OUTPUTDEVICES>
+        <DEVICE name="(default audio output)"/>
+      </OUTPUTDEVICES>
+    </TRACK>
+    <TRACK id="1127" midiVProp="0.28125" midiVOffset="0.359375" name="G3-s">
+      <MACROPARAMETERS id="1129">
+        <MACROPARAMETER id="1164" name="width" value="1.0"/>
+        <MODIFIERASSIGNMENTS/>
+        <MACROPARAMETER id="1166" name="width automation" value="1.0"/>
+        <MACROPARAMETER id="1168" name="pan automation" value="0.5"/>
+      </MACROPARAMETERS>
+      <MODIFIERS/>
+      <AUDIOCLIP name="s01-A2-min-003-stretch.wav.0" start="4.56250011920929"
+                 length="2.306250035762787" offset="6.033537321982742" id="1270"
+                 source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/01-A2-min-003-stretch.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.8999999761581421"
+                 fadeOut="0.300000011920929" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="17.19843990929705" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="s02-B2-min-004-stretch.wav.1" start="5.96875011920929"
+                 length="1.368750035762787" offset="2.778889158301883" id="1274"
+                 source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/02-B2-min-004-stretch.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.6843750178813934"
+                 fadeOut="0.300000011920929" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="13.06548148148148" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="s03-C3-maj-004-stretch.wav.2" start="6.43750011920929"
+                 length="1.837500035762787" offset="2.623900286362014" id="1278"
+                 source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/03-C3-maj-004-stretch.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.8999999761581421"
+                 fadeOut="0.300000011920929" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="12.93216024187453" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="s08-A3-min-004-stretch.wav.3" start="7.37500011920929"
+                 length="4.650000035762787" offset="3.958888748221927" id="1282"
+                 source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/08-A3-min-004-stretch.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.8999999761581421"
+                 fadeOut="0.300000011920929" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="13.06548148148148" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="s01-A2-min-003-stretch.wav.4" start="11.12500011920929"
+                 length="2.306250035762787" offset="6.033537321982742" id="1286"
+                 source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/01-A2-min-003-stretch.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.8999999761581421"
+                 fadeOut="0.300000011920929" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="17.19843990929705" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="s02-B2-min-004-stretch.wav.5" start="12.53125011920929"
+                 length="1.368750035762787" offset="2.778889158301883" id="1290"
+                 source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/02-B2-min-004-stretch.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.6843750178813934"
+                 fadeOut="0.300000011920929" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="13.06548148148148" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="s03-C3-maj-004-stretch.wav.6" start="13.00000011920929"
+                 length="1.837500035762787" offset="2.623900286362014" id="1294"
+                 source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/03-C3-maj-004-stretch.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.8999999761581421"
+                 fadeOut="0.300000011920929" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="12.93216024187453" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="s07-G3-maj-002-stretch.wav.7" start="13.93750011920929"
+                 length="4.650000035762787" offset="5.554478231552235" id="1298"
+                 source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/07-G3-maj-002-stretch.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.8999999761581421"
+                 fadeOut="0.300000011920929" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="24.13811035525321" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="s01-A2-min-003-stretch.wav.8" start="17.68750011920929"
+                 length="2.306250035762787" offset="6.033537321982742" id="1302"
+                 source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/01-A2-min-003-stretch.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.8999999761581421"
+                 fadeOut="0.300000011920929" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="17.19843990929705" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="s02-B2-min-004-stretch.wav.9" start="19.09375011920929"
+                 length="1.837500035762787" offset="2.778888681464725" id="1306"
+                 source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/02-B2-min-004-stretch.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.8999999761581421"
+                 fadeOut="0.300000011920929" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="13.06548148148148" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="s03-C3-maj-004-stretch.wav.10" start="20.03125011920929"
+                 length="1.368750035762787" offset="2.623899809524856" id="1310"
+                 source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/03-C3-maj-004-stretch.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.6843750178813934"
+                 fadeOut="0.300000011920929" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="12.93216024187453" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="s05-E3-min-005-stretch.wav.11" start="20.50000011920929"
+                 length="4.650000035762787" offset="3.323809392679305" id="1314"
+                 source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/05-E3-min-005-stretch.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.8999999761581421"
+                 fadeOut="0.300000011920929" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="13.99873015873016" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="s01-A2-min-003-stretch.wav.12" start="24.25000011920929"
+                 length="2.306250035762787" offset="6.033537321982742" id="1318"
+                 source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/01-A2-min-003-stretch.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.8999999761581421"
+                 fadeOut="0.300000011920929" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="17.19843990929705" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="s02-B2-min-004-stretch.wav.13" start="25.65625011920929"
+                 length="1.368750035762787" offset="2.778889158301883" id="1322"
+                 source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/02-B2-min-004-stretch.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.6843750178813934"
+                 fadeOut="0.300000011920929" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="13.06548148148148" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="s03-C3-maj-004-stretch.wav.14" start="26.12500011920929"
+                 length="1.837500035762787" offset="2.623900286362014" id="1326"
+                 source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/03-C3-maj-004-stretch.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.8999999761581421"
+                 fadeOut="0.300000011920929" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="12.93216024187453" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="s08-A3-min-004-stretch.wav.15" start="27.06250011920929"
+                 length="12.24888888888889" offset="3.552713678800501e-15" id="1330"
+                 source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths-stretch/08-A3-min-004-stretch.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.8999999761581421"
+                 fadeOut="0.300000011920929" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="13.06548148148148" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <PLUGIN type="rack" rackType="1140" cybr-width="T" id="1170" enabled="1">
+        <MACROPARAMETERS id="1171"/>
+        <MODIFIERASSIGNMENTS/>
+      </PLUGIN>
+      <PLUGIN type="volume" id="1132" enabled="1" remapOnTempoChange="1">
+        <MACROPARAMETERS id="1133"/>
+        <MODIFIERASSIGNMENTS>
+          <MACRO source="1168" paramID="pan" value="1.0" offset="-0.5"/>
+        </MODIFIERASSIGNMENTS>
+      </PLUGIN>
+      <PLUGIN type="level" id="1136" enabled="1">
+        <MACROPARAMETERS id="1137"/>
+      </PLUGIN>
+      <OUTPUTDEVICES>
+        <DEVICE name="(default audio output)"/>
+      </OUTPUTDEVICES>
+    </TRACK>
+    <TRACK id="1174" midiVProp="0.28125" midiVOffset="0.359375" name="G3-r">
+      <MACROPARAMETERS id="1176">
+        <MACROPARAMETER id="1211" name="width" value="1.0"/>
+        <MODIFIERASSIGNMENTS/>
+        <MACROPARAMETER id="1213" name="width automation" value="1.0"/>
+        <MACROPARAMETER id="1215" name="pan automation" value="0.5"/>
+      </MACROPARAMETERS>
+      <MODIFIERS/>
+      <AUDIOCLIP name="sA2-min-002.wav.0" start="6.5625" length="1.506250016391277"
+                 offset="1.749551747920464e-8" id="1334" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/A2-min-002.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffaaff00" fadeIn="0.1000000014901161"
+                 fadeOut="0.1000000014901161" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="3.135951625094482" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sB2-min-001.wav.1" start="7.96875" length="0.5687500163912773"
+                 offset="0.0" id="1338" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/B2-min-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffaaff00" fadeIn="0.1000000014901161"
+                 fadeOut="0.1000000014901161" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="2.391848828420257" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sC3-maj-001.wav.2" start="8.4375" length="1.037500016391277"
+                 offset="2.670788168401828e-8" id="1342" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/C3-maj-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffaaff00" fadeIn="0.1000000014901161"
+                 fadeOut="0.1000000014901161" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="2.68367044595616" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sA3-min-004.wav.3" start="9.375" length="1.307550966739655"
+                 offset="5.48606016170794e-8" id="1346" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/A3-min-004.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffaaff00" fadeIn="0.1000000014901161"
+                 fadeOut="0.1000000014901161" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="1.629387755102041" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sA2-min-002.wav.4" start="13.125" length="1.506250016391277"
+                 offset="1.749551747920464e-8" id="1350" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/A2-min-002.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffaaff00" fadeIn="0.1000000014901161"
+                 fadeOut="0.1000000014901161" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="3.135951625094482" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sB2-min-001.wav.5" start="14.53125" length="0.5687500163912773"
+                 offset="0.0" id="1354" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/B2-min-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffaaff00" fadeIn="0.1000000014901161"
+                 fadeOut="0.1000000014901161" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="2.391848828420257" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sC3-maj-001.wav.6" start="15.0" length="1.037500016391277"
+                 offset="2.670788168401828e-8" id="1358" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/C3-maj-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffaaff00" fadeIn="0.1000000014901161"
+                 fadeOut="0.1000000014901161" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="2.68367044595616" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sG3-maj-001.wav.7" start="15.9375" length="1.903968304395676"
+                 offset="0.0" id="1362" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/G3-maj-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffaaff00" fadeIn="0.1000000014901161"
+                 fadeOut="0.1000000014901161" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="2.265566137566138" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sA2-min-002.wav.8" start="19.6875" length="1.506250016391277"
+                 offset="1.749551747920464e-8" id="1366" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/A2-min-002.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffaaff00" fadeIn="0.1000000014901161"
+                 fadeOut="0.1000000014901161" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="3.135951625094482" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sB2-min-001.wav.9" start="21.09375" length="1.037500016391277"
+                 offset="0.0" id="1370" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/B2-min-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffaaff00" fadeIn="0.1000000014901161"
+                 fadeOut="0.1000000014901161" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="2.391848828420257" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sC3-maj-001.wav.10" start="22.03125" length="0.5687500163912773"
+                 offset="2.670788168401828e-8" id="1374" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/C3-maj-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffaaff00" fadeIn="0.1000000014901161"
+                 fadeOut="0.1000000014901161" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="2.68367044595616" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sE3-min-001.wav.11" start="22.5" length="2.200340107083321"
+                 offset="3.016319416460078e-8" id="1378" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/E3-min-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffaaff00" fadeIn="0.1000000014901161"
+                 fadeOut="0.1000000014901161" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="2.581696145124717" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sA2-min-002.wav.12" start="32.8125" length="1.506250016391277"
+                 offset="1.749551747920464e-8" id="1382" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/A2-min-002.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffaaff00" fadeIn="0.1000000014901161"
+                 fadeOut="0.1000000014901161" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="3.135951625094482" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sB2-min-001.wav.13" start="34.21875" length="0.5687500163912773"
+                 offset="0.0" id="1386" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/B2-min-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffaaff00" fadeIn="0.1000000014901161"
+                 fadeOut="0.1000000014901161" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="2.391848828420257" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sC3-maj-001.wav.14" start="34.6875" length="1.037500016391277"
+                 offset="2.670788168401828e-8" id="1390" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/C3-maj-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffaaff00" fadeIn="0.1000000014901161"
+                 fadeOut="0.1000000014901161" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="2.68367044595616" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <AUDIOCLIP name="sG3-maj-001.wav.15" start="35.625" length="1.903968304395676"
+                 offset="0.0" id="1394" source="/Users/charles/projects/node/fluid-music-g3rd/wav-g-10ths/G3-maj-001.wav"
+                 sync="0" elastiqueMode="0" pan="0.0" colour="ffaaff00" fadeIn="0.1000000014901161"
+                 fadeOut="0.1000000014901161" isReversed="1">
+        <LOOPINFO rootNote="-1" numBeats="2.265566137566138" oneShot="0" denominator="4"
+                  numerator="4" bpm="0.0" inMarker="0" outMarker="-1"/>
+      </AUDIOCLIP>
+      <PLUGIN type="rack" rackType="1187" cybr-width="T" id="1217" enabled="1">
+        <MACROPARAMETERS id="1218"/>
+        <MODIFIERASSIGNMENTS/>
+      </PLUGIN>
+      <PLUGIN type="volume" id="1179" enabled="1" remapOnTempoChange="1">
+        <MACROPARAMETERS id="1180"/>
+        <MODIFIERASSIGNMENTS>
+          <MACRO source="1215" paramID="pan" value="1.0" offset="-0.5"/>
+        </MODIFIERASSIGNMENTS>
+      </PLUGIN>
+      <PLUGIN type="level" id="1183" enabled="1">
+        <MACROPARAMETERS id="1184"/>
+      </PLUGIN>
+      <OUTPUTDEVICES>
+        <DEVICE name="(default audio output)"/>
+      </OUTPUTDEVICES>
+    </TRACK>
     <MACROPARAMETERS id="1016">
       <MACROPARAMETER id="1070" name="width" value="1.0"/>
       <MODIFIERASSIGNMENTS/>
@@ -190,62 +725,6 @@
       <MACROPARAMETER id="1074" name="pan automation" value="0.5"/>
     </MACROPARAMETERS>
     <MODIFIERS/>
-    <AUDIOCLIP name="sA2-min-001.mp3.0" start="0.0" length="0.2247191078207467"
-               offset="0.0" id="1128" source="/Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths/A2-min-001.mp3"
-               sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.009999999776482582"
-               fadeOut="0.009999999776482582">
-      <LOOPINFO bpm="0.0" numBeats="2.118946712018141" denominator="4" numerator="4"
-                oneShot="0" rootNote="-1" inMarker="0" outMarker="-1"/>
-    </AUDIOCLIP>
-    <AUDIOCLIP name="sA2-min-001.mp3.1" start="0.2247191078207466" length="0.2247191078207467"
-               offset="0.0" id="1132" source="/Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths/A2-min-001.mp3"
-               sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.009999999776482582"
-               fadeOut="0.009999999776482582">
-      <LOOPINFO bpm="0.0" numBeats="2.118946712018141" denominator="4" numerator="4"
-                oneShot="0" rootNote="-1" inMarker="0" outMarker="-1"/>
-    </AUDIOCLIP>
-    <AUDIOCLIP name="sB2-min-001.mp3.2" start="0.4494382156414932" length="0.8988764312829863"
-               offset="0.0" id="1136" source="/Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths/B2-min-001.mp3"
-               sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.009999999776482582"
-               fadeOut="0.009999999776482582">
-      <LOOPINFO bpm="0.0" numBeats="3.355831443688587" denominator="4" numerator="4"
-                oneShot="0" rootNote="-1" inMarker="0" outMarker="-1"/>
-    </AUDIOCLIP>
-    <AUDIOCLIP name="sC3-maj-001.mp3.3" start="3.370786516853932" length="0.2247191078207469"
-               offset="0.0" id="1140" source="/Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths/C3-maj-001.mp3"
-               sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.009999999776482582"
-               fadeOut="0.009999999776482582">
-      <LOOPINFO bpm="0.0" numBeats="3.761645880574452" denominator="4" numerator="4"
-                oneShot="0" rootNote="-1" inMarker="0" outMarker="-1"/>
-    </AUDIOCLIP>
-    <AUDIOCLIP name="sD3-maj-001.mp3.4" start="4.044943820224719" length="0.2247191078207464"
-               offset="0.0" id="1144" source="/Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths/D3-maj-001.mp3"
-               sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.009999999776482582"
-               fadeOut="0.009999999776482582">
-      <LOOPINFO bpm="0.0" numBeats="3.957270975056689" denominator="4" numerator="4"
-                oneShot="0" rootNote="-1" inMarker="0" outMarker="-1"/>
-    </AUDIOCLIP>
-    <AUDIOCLIP name="sC3-maj-001.mp3.5" start="6.741573033707865" length="0.2247191078207464"
-               offset="0.0" id="1148" source="/Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths/C3-maj-001.mp3"
-               sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.009999999776482582"
-               fadeOut="0.009999999776482582">
-      <LOOPINFO bpm="0.0" numBeats="3.761645880574452" denominator="4" numerator="4"
-                oneShot="0" rootNote="-1" inMarker="0" outMarker="-1"/>
-    </AUDIOCLIP>
-    <AUDIOCLIP name="sA2-min-001.mp3.6" start="7.415730337078651" length="0.2247191078207473"
-               offset="0.0" id="1152" source="/Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths/A2-min-001.mp3"
-               sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.009999999776482582"
-               fadeOut="0.009999999776482582">
-      <LOOPINFO bpm="0.0" numBeats="2.118946712018141" denominator="4" numerator="4"
-                oneShot="0" rootNote="-1" inMarker="0" outMarker="-1"/>
-    </AUDIOCLIP>
-    <AUDIOCLIP name="sA2-min-001.mp3.7" start="10.1123595505618" length="0.2247191078207464"
-               offset="0.0" id="1156" source="/Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths/A2-min-001.mp3"
-               sync="0" elastiqueMode="0" pan="0.0" colour="ffff0000" fadeIn="0.009999999776482582"
-               fadeOut="0.009999999776482582">
-      <LOOPINFO bpm="0.0" numBeats="2.118946712018141" denominator="4" numerator="4"
-                oneShot="0" rootNote="-1" inMarker="0" outMarker="-1"/>
-    </AUDIOCLIP>
     <PLUGIN type="rack" rackType="1046" cybr-width="T" id="1076" enabled="1">
       <MACROPARAMETERS id="1077"/>
       <MODIFIERASSIGNMENTS/>
@@ -259,89 +738,5 @@
     <PLUGIN type="level" id="1042" enabled="1">
       <MACROPARAMETERS id="1043"/>
     </PLUGIN>
-    <OUTPUTDEVICES>
-      <DEVICE name="(default audio output)"/>
-    </OUTPUTDEVICES>
-  </TRACK>
-  <TRACK id="1080" midiVProp="0.28125" midiVOffset="0.359375" name="g10A-s">
-    <MACROPARAMETERS id="1082">
-      <MACROPARAMETER id="1117" name="width" value="1.0"/>
-      <MODIFIERASSIGNMENTS/>
-      <MACROPARAMETER id="1119" name="width automation" value="1.0"/>
-      <MACROPARAMETER id="1121" name="pan automation" value="0.5"/>
-    </MACROPARAMETERS>
-    <MODIFIERS/>
-    <AUDIOCLIP name="s01-A2-min-003-stretch.mp3.0" start="0.0" length="0.2347191063205845"
-               offset="0.0" id="1160" source="/Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3"
-               sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.2330544292926788"
-               fadeOut="0.001664674491621554" gain="-7.755795955657959">
-      <LOOPINFO bpm="0.0" numBeats="23.91658049886622" denominator="4" numerator="4"
-                oneShot="0" rootNote="-1" inMarker="0" outMarker="-1"/>
-    </AUDIOCLIP>
-    <AUDIOCLIP name="s01-A2-min-003-stretch.mp3.1" start="0.2247191078207466"
-               length="0.2347191063205843" offset="0.0" id="1164" source="/Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3"
-               sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.2330544292926788"
-               fadeOut="0.001664674491621554" gain="-7.755795955657959">
-      <LOOPINFO bpm="0.0" numBeats="23.91658049886622" denominator="4" numerator="4"
-                oneShot="0" rootNote="-1" inMarker="0" outMarker="-1"/>
-    </AUDIOCLIP>
-    <AUDIOCLIP name="s02-B2-min-004-stretch.mp3.2" start="0.4494382156414932"
-               length="2.931348179163558" offset="0.0" id="1168" source="/Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths-stretch/02-B2-min-004-stretch.mp3"
-               sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="1.399999976158142"
-               fadeOut="0.009999999776482582">
-      <LOOPINFO bpm="0.0" numBeats="18.16918518518519" denominator="4" numerator="4"
-                oneShot="0" rootNote="-1" inMarker="0" outMarker="-1"/>
-    </AUDIOCLIP>
-    <AUDIOCLIP name="s03-C3-maj-004-stretch.mp3.3" start="3.370786516853932"
-               length="0.6841573018706257" offset="0.0" id="1172" source="/Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths-stretch/03-C3-maj-004-stretch.mp3"
-               sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.6793051225304167"
-               fadeOut="0.004852179340208971" gain="-3.109720706939697">
-      <LOOPINFO bpm="0.0" numBeats="17.98378533635676" denominator="4" numerator="4"
-                oneShot="0" rootNote="-1" inMarker="0" outMarker="-1"/>
-    </AUDIOCLIP>
-    <AUDIOCLIP name="s04-D3-maj-004-stretch.mp3.4" start="4.044943820224719"
-               length="2.706629292348798" offset="0.0" id="1176" source="/Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths-stretch/04-D3-maj-004-stretch.mp3"
-               sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="1.399999976158142"
-               fadeOut="0.009999999776482582">
-      <LOOPINFO bpm="0.0" numBeats="18.72538473167045" denominator="4" numerator="4"
-                oneShot="0" rootNote="-1" inMarker="0" outMarker="-1"/>
-    </AUDIOCLIP>
-    <AUDIOCLIP name="s03-C3-maj-004-stretch.mp3.5" start="6.741573033707865"
-               length="0.6841573018706244" offset="0.0" id="1180" source="/Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths-stretch/03-C3-maj-004-stretch.mp3"
-               sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="0.6793051225304154"
-               fadeOut="0.004852179340208961" gain="-3.109720706939697">
-      <LOOPINFO bpm="0.0" numBeats="17.98378533635676" denominator="4" numerator="4"
-                oneShot="0" rootNote="-1" inMarker="0" outMarker="-1"/>
-    </AUDIOCLIP>
-    <AUDIOCLIP name="s01-A2-min-003-stretch.mp3.6" start="7.415730337078651"
-               length="2.706629292348797" offset="0.0" id="1184" source="/Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3"
-               sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="1.399999976158142"
-               fadeOut="0.009999999776482582">
-      <LOOPINFO bpm="0.0" numBeats="23.91658049886622" denominator="4" numerator="4"
-                oneShot="0" rootNote="-1" inMarker="0" outMarker="-1"/>
-    </AUDIOCLIP>
-    <AUDIOCLIP name="s01-A2-min-003-stretch.mp3.7" start="10.1123595505618"
-               length="16.12353741496599" offset="0.0" id="1188" source="/Users/charles/projects/node/fluid-music-g3rd/mp3-g-10ths-stretch/01-A2-min-003-stretch.mp3"
-               sync="0" elastiqueMode="0" pan="0.0" colour="ffffaa00" fadeIn="1.399999976158142"
-               fadeOut="0.009999999776482582">
-      <LOOPINFO bpm="0.0" numBeats="23.91658049886622" denominator="4" numerator="4"
-                oneShot="0" rootNote="-1" inMarker="0" outMarker="-1"/>
-    </AUDIOCLIP>
-    <PLUGIN type="rack" rackType="1093" cybr-width="T" id="1123" enabled="1">
-      <MACROPARAMETERS id="1124"/>
-      <MODIFIERASSIGNMENTS/>
-    </PLUGIN>
-    <PLUGIN type="volume" id="1085" enabled="1" remapOnTempoChange="1">
-      <MACROPARAMETERS id="1086"/>
-      <MODIFIERASSIGNMENTS>
-        <MACRO source="1121" paramID="pan" value="1.0" offset="-0.5"/>
-      </MODIFIERASSIGNMENTS>
-    </PLUGIN>
-    <PLUGIN type="level" id="1089" enabled="1">
-      <MACROPARAMETERS id="1090"/>
-    </PLUGIN>
-    <OUTPUTDEVICES>
-      <DEVICE name="(default audio output)"/>
-    </OUTPUTDEVICES>
-  </TRACK>
+  </FOLDERTRACK>
 </EDIT>

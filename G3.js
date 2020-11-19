@@ -9,9 +9,10 @@ module.exports = class G3 {
 
     this.audioFile = new fluid.techniques.AudioFile({
       ...options,
-      // fadeInSeconds: 0.25,
+      fadeInSeconds: 0.05,
       fadeOutSeconds: 0.01,
-      // startInSourceSeconds: 0.1
+      startInSourceSeconds: 0.12,
+      mode: fluid.techniques.AudioFile.Modes.OneVoice
     })
     this.audioFileStretch = new fluid.techniques.AudioFile({
       ...stretchOptions,
@@ -30,6 +31,7 @@ module.exports = class G3 {
     const [base, ext] = context.track.name.split('-')
 
     if (!ext || ext === 'g') {
+      context.track = context.session.getOrCreateTrackByName(base + '-g')
       const audioFile = this.audioFile.use(context)
     }
 
@@ -38,6 +40,11 @@ module.exports = class G3 {
       context.track = context.session.getOrCreateTrackByName(base + '-r')
 
       const audioFile = this.audioFile.use(context)
+      // audioFile.startTimeSeconds -= 0.1
+      audioFile.startInSourceSeconds += 0.1
+      audioFile.fadeInSeconds = 0.1
+      audioFile.growRightEdgeBySecondsSafe(0.2)
+      audioFile.fadeOutSeconds = 0.1
       audioFile.reverse()
     }
 
@@ -49,7 +56,7 @@ module.exports = class G3 {
       stretchedFile.reverse()
       stretchedFile.startInSourceSeconds = stretchedFile.info.cues.release
       // Extend the left edge, but don't extend it more then 2 seconds
-      stretchedFile.moveLeftEdgeBySecondsSafe(Math.min(2, stretchedFile.getTailLeftSeconds()))
+      stretchedFile.growLeftEdgeBySecondsSafe(Math.min(2, stretchedFile.getTailLeftSeconds()))
     }
   }
 }

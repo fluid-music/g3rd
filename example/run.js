@@ -16,19 +16,24 @@ const session = new fluid.FluidSession({
 
 session.editCursorTime = 7/4
 session.insertScore({
-  r:     '1 2 3 4 5 6 7 ',
-  G3:   ['a--bc-h---',
-         'a--bc-g---',
-         'a--b-ce---',]
+  r:       '1 2 3 4 5 6 7 ',
+  G3:     ['a--bc-h---',
+           'a--bc-g---',
+           'a--b-ce---',]
 })
 session.insertScore({
   'G3-s': ['a--bc-h---']
 })
+session.insertScore({
+  'G3-r': ['a--bc-g---']
+})
 
 async function run() {
   await session.saveAsReaperFile('out.RPP')
-  // await session.saveAsTracktionFile('out.tracktionedit')
+  console.warn('OK: out.RPP')
+  await session.saveAsTracktionFile('out.tracktionedit')
+  console.warn('OK: out.tracktionedit')
 }
 run()
-  .then(() => console.warn('OK'))
+  .then(() => console.warn('Done!'))
   .catch((e) => console.error('Failed: ', e))
