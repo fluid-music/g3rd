@@ -4,22 +4,30 @@ const session = new fluid.FluidSession({
   bpm: 64,
   tLibrary: g3rd.tLibrary,
   dLibrary: new Array(10).fill(0).map((_, i) => { return { trimDb: -18 + i*2 } }),
+  r: '1 2 3 4 5 6 7 ',
   // d:     '965864965732544',
 }, [
-  { name: 'g10A' },
+  { name: 'G3', children: [
+    { name: 'G3-g' },
+    { name: 'G3-s' },
+    { name: 'G3-r' },
+  ]},
 ])
 
-session.editCursorTime = 1
+session.editCursorTime = 7/4
 session.insertScore({
-  r:     '1 2 3 4 5 6 7',
-  g10A: ['a--bc-h---',
+  r:     '1 2 3 4 5 6 7 ',
+  G3:   ['a--bc-h---',
          'a--bc-g---',
-         'a--b-ce---', 'b', 'c', 'd', 'e', 'f', 'g', 'h'],
+         'a--b-ce---',]
+})
+session.insertScore({
+  'G3-s': ['a--bc-h---']
 })
 
 async function run() {
   await session.saveAsReaperFile('out.RPP')
-  await session.saveAsTracktionFile('out.tracktionedit')
+  // await session.saveAsTracktionFile('out.tracktionedit')
 }
 run()
   .then(() => console.warn('OK'))
