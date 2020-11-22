@@ -43,8 +43,8 @@ module.exports = class G3 {
       // audioFile.startTimeSeconds -= 0.1
       audioFile.startInSourceSeconds += 0.1
       audioFile.fadeInSeconds = 0.1
-      audioFile.growRightEdgeBySecondsSafe(0.2)
       audioFile.fadeOutSeconds = 0.1
+      audioFile.growRightEdgeBySecondsSafe(0.2)
       audioFile.reverse()
     }
 
