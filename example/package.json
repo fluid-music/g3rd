@@ -1,7 +1,7 @@
 {
-  "name": "demo-mp3",
+  "name": "@fluid-music/g3rd-example",
   "version": "0.0.1",
-  "description": "experimenting with mp3 files in fluid music",
+  "description": "Simple fluid-music example using g3rd package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

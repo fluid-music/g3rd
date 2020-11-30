@@ -8,14 +8,14 @@ const session = new fluid.FluidSession({
   // d:     '965864965732544',
 }, [
   { name: 'G3', children: [
-    { name: 'G3-g' },
-    { name: 'G3-s' },
-    { name: 'G3-r' },
+    { name: 'G3g' },
+    { name: 'G3s' },
+    { name: 'G3r' },
   ]},
 ])
 
-g3rd.tLibrary.x = new fluid.techniques.TrackAuto({ paramKey: 'width', value: 1 })
-g3rd.tLibrary.y = new fluid.techniques.TrackAuto({ paramKey: 'width', value: -0.9 })
+g3rd.tLibrary.x = new fluid.techniques.TrackAutomation({ paramKey: 'width', value: 1 })
+g3rd.tLibrary.y = new fluid.techniques.TrackAutomation({ paramKey: 'width', value: -0.9 })
 
 session.editCursorTime = 7/4
 session.insertScore({
@@ -23,13 +23,13 @@ session.insertScore({
   G3:     ['a--bc-h---',
            'a--bc-g---',
            'a--b-ce---',],
-  'G3-s':  'x        y',
+  G3s:  'x        y',
 })
 session.insertScore({
-  'G3-s': ['a--bc-h---']
+  G3s: ['a--bc-h---']
 })
 session.insertScore({
-  'G3-r': ['a--bc-g---']
+  G3r: ['a--bc-g---']
 })
 // session.insertScore({
 //   'G3-s': ['........h---']

@@ -16,28 +16,29 @@ module.exports = class G3 {
     })
     this.audioFileStretch = new fluid.techniques.AudioFile({
       ...stretchOptions,
-      fadeInSeconds: .9,
-      fadeOutSeconds: .3,
-      mode: FluidAudioFile.Modes.OneVoice,
+      fadeInSeconds: 0.01,
+      fadeOutSeconds: 1.2,
+      mode: FluidAudioFile.Modes.Event,
       durationSeconds: stretchCues.release - stretchCues.onset,
     })
     this.audioFileStretch.info.cues = stretchCues
   }
 
   /**
-   * @param {UseContext} context
+   * @param {import('fluid-music').UseContext} context
    */
   use(context) {
-    const [base, ext] = context.track.name.split('-')
+    const base = context.track.name.slice(0, -1)
+    const ext = context.track.name.slice(-1)
 
     if (!ext || ext === 'g') {
-      context.track = context.session.getOrCreateTrackByName(base + '-g')
+      context.track = context.session.getOrCreateTrackByName(base + 'g')
       const audioFile = this.audioFile.use(context)
     }
 
     if (!ext || ext === 'r') {
       context = { ...context }
-      context.track = context.session.getOrCreateTrackByName(base + '-r')
+      context.track = context.session.getOrCreateTrackByName(base + 'r')
 
       const audioFile = this.audioFile.use(context)
       // audioFile.startTimeSeconds -= 0.1
@@ -48,15 +49,48 @@ module.exports = class G3 {
       audioFile.reverse()
     }
 
+    // play the stretched audio in reverse, lining up the release with the start
+    // of the event. This causes the noisy, un-pitched portion of the sample to
+    // act as a 'lead-in' to the event.
     if (!ext || ext === 's') {
       context = { ...context }
-      context.track = context.session.getOrCreateTrackByName(base + '-s')
+      context.track = context.session.getOrCreateTrackByName(base + 's')
 
       const stretchedFile = this.audioFileStretch.use(context)
-      stretchedFile.reverse()
-      stretchedFile.startInSourceSeconds = stretchedFile.info.cues.release
-      // Extend the left edge, but don't extend it more then 2 seconds
-      stretchedFile.growLeftEdgeBySecondsSafe(Math.min(2, stretchedFile.getTailLeftSeconds()))
+      const releaseSeconds = stretchedFile.info.cues.release // within the source file, where does the release begin
+      stretchedFile.playToEnd()
+      stretchedFile.reverse(true)
+      const leadInSeconds = stretchedFile.getSourcePlaybackSeconds() - releaseSeconds
+      stretchedFile.startTimeSeconds -= leadInSeconds
+
+      // prevent lead in from being longer than x seconds
+      const maxLeadInSeconds = 3.5
+      const targetLeadInSeconds = Math.min(maxLeadInSeconds, leadInSeconds)
+      if (targetLeadInSeconds !== leadInSeconds) {
+        stretchedFile.growLeftEdgeBySeconds(maxLeadInSeconds - leadInSeconds)
+      }
+
+      if (stretchedFile.mode === AudioFileMode.Event) {
+        stretchedFile.durationSeconds = targetLeadInSeconds + context.durationSeconds
+      } else if (stretchedFile.mode === AudioFileMode.OneShot || stretchedFile.mode === AudioFileMode.OneVoice) {
+        stretchedFile.playToEnd()
+      }
+    }
+
+    // Play the stretched audio in reverse, lining up the sound's onset with the
+    // end of the event. This is for when you want to set the end of the
+    // reversed event to land a particular time.
+    if (ext === 'x') {
+      context = {...context }
+      context.track = context.session.getOrCreateTrackByName(base + 'x')
+      const rxFile = this.audioFileStretch.use(context)
+      rxFile.mode = FluidAudioFile.Modes.Event
+      rxFile.durationSeconds = context.durationSeconds
+      rxFile.reverse(true)
+      rxFile.growRightEdgeBySeconds(rxFile.getTailRightSeconds())
+
+      rxFile.fadeOutSeconds = 0
+      rxFile.fadeInSeconds = Math.max(rxFile.fadeInSeconds, 3)
     }
   }
 }
