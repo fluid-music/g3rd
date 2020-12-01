@@ -13,7 +13,6 @@ module.exports = class RAlign {
    * @param {AudioFileOptions} options
    */
   constructor(options, onsetSeconds = 0, releaseSeconds) {
-    console.log(options.info)
     this.audioFile = new techniques.AudioFile(options)
     /** Onset time (within the source file) */
     this.onsetSeconds = onsetSeconds
@@ -32,21 +31,21 @@ module.exports = class RAlign {
     if (!ext || ext === 'R') {
       context = { ...context }
       context.track = context.session.getOrCreateTrackByName(base + 'R')
-  
+
       const newFile = this.audioFile.use(context)
-      
+
       newFile.playToEnd()
       newFile.reverse(true)
       const leadInSeconds = newFile.getSourcePlaybackSeconds() - this.releaseSeconds
       newFile.startTimeSeconds -= leadInSeconds
-  
+
       // prevent lead in from being longer than x seconds
       const maxLeadInSeconds = 3.5
       const targetLeadInSeconds = Math.min(maxLeadInSeconds, leadInSeconds)
       if (targetLeadInSeconds !== leadInSeconds) {
         newFile.growLeftEdgeBySeconds(maxLeadInSeconds - leadInSeconds)
       }
-  
+
       if (newFile.mode === FluidAudioFile.Modes.Event) {
         newFile.durationSeconds = targetLeadInSeconds + context.durationSeconds
       } else if (newFile.mode === FluidAudioFile.Modes.OneShot || newFile.mode === FluidAudioFile.Modes.OneVoice) {
@@ -55,17 +54,27 @@ module.exports = class RAlign {
     }
 
     // Play the audio in reverse, lining up the sound's onset with the
-    // end of the event. This is for when you want to set the end of the
-    // reversed event to land a particular time.
+    // end of the event. When the original sample has a "lead in" (indicated by
+    // a non-zero onset value), this "lead in" will play just after the event
+    // ends.
     if (ext === 'X') {
       context = {...context }
       context.track = context.session.getOrCreateTrackByName(base + 'X')
       const rxFile = this.audioFile.use(context)
-      rxFile.mode = FluidAudioFile.Modes.Event
-      rxFile.durationSeconds = context.durationSeconds
-      rxFile.reverse(true)
+      rxFile.startInSourceSeconds = 0
       rxFile.playToEnd()
+      rxFile.reverse(true)
 
+      // distance between onset and event end
+      const postOnsetDuration = (rxFile.getSourceDurationSeconds() - this.onsetSeconds) / Math.abs(rxFile.playbackRate)
+      const startSecondsDelta = context.durationSeconds - postOnsetDuration
+      rxFile.startTimeSeconds += startSecondsDelta
+
+      const desiredDuration = context.durationSeconds + (this.onsetSeconds / Math.abs(rxFile.playbackRate))
+      const trimDelta = desiredDuration - rxFile.durationSeconds
+      if (trimDelta < 0) rxFile.growLeftEdgeBySecondsSafe(trimDelta)
+
+      rxFile.mode = FluidAudioFile.Modes.Event
       rxFile.fadeOutSeconds = 0
       rxFile.fadeInSeconds = Math.max(rxFile.fadeInSeconds, 3.5)
     }
