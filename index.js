@@ -4,6 +4,7 @@ const rides = require('./rides')
 const info10ths = require('./wav-g-10ths')
 const infoStretched = require('./wav-g-10ths-stretch')
 const G3 = require('./G3')
+const RAlign = require('./RAlign')
 
 for (const [basename, obj] of Object.entries(info10ths)) obj.path = path.join(__dirname, obj.path)
 for (const [basename, obj] of Object.entries(infoStretched)) obj.path = path.join(__dirname, obj.path)
@@ -22,5 +23,8 @@ module.exports = {
     h: new G3(info10ths['A3-min-004.wav'], infoStretched['08-A3-min-004-stretch.wav'], [57, 57 + 15], { onset: 0.6, release: 6.29 }),
     i: new G3(info10ths['A3-min-004.wav'], infoStretched['09-A3-min-001-stretch.wav'], [57, 57 + 15], { onset: 0, release: 9.06 })
   },
-  rides
+  rides,
+  tLibraryReverseRides : {
+    a: new RAlign(rides.tLibrary.a, 1, 3)
+  }
 }

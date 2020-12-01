@@ -4,8 +4,9 @@ const rides = require('./rides-info')
 
 const techniqueFromBaseName = (basename, gainDb = 0) => {
   const info = rides[basename]
-  const fullPath = path.join(__dirname, info.path)
-  return new techniques.AudioFile({ path: fullPath, gainDb })
+  info.path = path.join(__dirname, info.path)
+  info.gainDb = gainDb
+  return new techniques.AudioFile(info)
 }
 
 const tLibrary = {
