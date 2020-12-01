@@ -1,6 +1,6 @@
 const path = require('path')
-const fluid = require('fluid-music')
 
+const rides = require('./rides')
 const info10ths = require('./wav-g-10ths')
 const infoStretched = require('./wav-g-10ths-stretch')
 const G3 = require('./G3')
@@ -21,5 +21,6 @@ module.exports = {
     g: new G3(info10ths['G3-maj-001.wav'], infoStretched['07-G3-maj-002-stretch.wav'], [55, 55 + 16], { onset: 0.6, release: 15.075 }),
     h: new G3(info10ths['A3-min-004.wav'], infoStretched['08-A3-min-004-stretch.wav'], [57, 57 + 15], { onset: 0.6, release: 6.29 }),
     i: new G3(info10ths['A3-min-004.wav'], infoStretched['09-A3-min-001-stretch.wav'], [57, 57 + 15], { onset: 0, release: 9.06 })
-  }
+  },
+  rides
 }
