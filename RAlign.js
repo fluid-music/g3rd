@@ -78,7 +78,6 @@ module.exports = class RAlign {
       if (trimDelta < 0) rxFile.growLeftEdgeBySecondsSafe(trimDelta)
 
       rxFile.mode = FluidAudioFile.Modes.Event
-      rxFile.fadeOutSeconds = 0
       rxFile.fadeInSeconds = Math.max(rxFile.fadeInSeconds, 3.5)
     }
 
