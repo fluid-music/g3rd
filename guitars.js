@@ -10,6 +10,8 @@ for (const [basename, obj] of Object.entries(info10ths)) {
 
 for (const [basename, obj] of Object.entries(infoStretched)) {
   if (!path.isAbsolute(obj.path)) obj.path = path.join(__dirname, obj.path)
+  obj.fadeOutSeconds = 3.5
+  obj.fadeInSeconds = 0.01
 } 
 
 const tLibrary = {

@@ -31,9 +31,9 @@ module.exports = class RAlign {
     // play the stretched audio in reverse, lining up the release with the start
     // of the event. This causes the release portion of the sample to act as a
     // 'lead-in'/appoggiatura to the event.
-    if (ext === 'R') {
+    if (ext === 'I') {
       context = { ...context }
-      context.track = context.session.getOrCreateTrackByName(base + 'R')
+      context.track = context.session.getOrCreateTrackByName(base + 'I')
 
       const newFile = this.audioFile.use(context)
 
