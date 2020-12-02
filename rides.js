@@ -1,12 +1,13 @@
 const path = require('path')
 const { techniques } = require('fluid-music')
 const rides = require('./rides-info')
+const RAlign = require('./RAlign')
 
-const techniqueFromBaseName = (basename, gainDb = 0) => {
+const techniqueFromBaseName = (basename, gainDb = 0, onsetSeconds = 0, releaseSeconds) => {
   const info = rides[basename]
   info.path = path.join(__dirname, info.path)
   info.gainDb = gainDb
-  return new techniques.AudioFile(info)
+  return new RAlign(info, onsetSeconds, releaseSeconds)
 }
 
 const tLibrary = {

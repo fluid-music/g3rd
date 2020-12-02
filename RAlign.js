@@ -28,26 +28,10 @@ module.exports = class RAlign {
     const base = context.track.name.slice(0, -1)
     const ext = context.track.name.slice(-1)
 
-    // Play the file forwards, aligning the onset with the start of the event.
-    // (If the sample has a non-zero onset, it will start before the beginning
-    // of the event.
-    if (ext === 'N') {
-      context = { ...context }
-      const leadInSeconds = this.onsetSeconds / Math.abs(this.audioFile.playbackRate)
-      context.durationSeconds = Math.min(context.durationSeconds + leadInSeconds, this.audioFile.getSourcePlaybackSeconds())
-      context.startTimeSeconds -= leadInSeconds
-      const newFile = this.audioFile.use(context)
-      newFile.reverse(false) // ensure the sample plays forwards
-
-      if (newFile.mode === FluidAudioFile.Modes.OneShot || newFile.mode === FluidAudioFile.Modes.OneVoice) {
-        newFile.playToEnd()
-      }
-    }
-
     // play the stretched audio in reverse, lining up the release with the start
-    // of the event. This causes the noisy, un-pitched portion of the sample to
-    // act as a 'lead-in' to the event
-    else if (ext === 'R') {
+    // of the event. This causes the release portion of the sample to act as a
+    // 'lead-in'/appoggiatura to the event.
+    if (ext === 'R') {
       context = { ...context }
       context.track = context.session.getOrCreateTrackByName(base + 'R')
 
@@ -96,6 +80,22 @@ module.exports = class RAlign {
       rxFile.mode = FluidAudioFile.Modes.Event
       rxFile.fadeOutSeconds = 0
       rxFile.fadeInSeconds = Math.max(rxFile.fadeInSeconds, 3.5)
+    }
+
+    // Play the file forwards, aligning the onset with the start of the event.
+    // (If the sample has a non-zero onset, it will start before the beginning
+    // of the event.
+    else {
+      context = { ...context }
+      const leadInSeconds = this.onsetSeconds / Math.abs(this.audioFile.playbackRate)
+      context.durationSeconds = Math.min(context.durationSeconds + leadInSeconds, this.audioFile.getSourcePlaybackSeconds())
+      context.startTimeSeconds -= leadInSeconds
+      const newFile = this.audioFile.use(context)
+      newFile.reverse(false) // ensure the sample plays forwards
+
+      if (newFile.mode === FluidAudioFile.Modes.OneShot || newFile.mode === FluidAudioFile.Modes.OneVoice) {
+        newFile.playToEnd()
+      }
     }
 
     return this
