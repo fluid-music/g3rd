@@ -25,12 +25,12 @@ class AudioFileRange {
     const release = this.audioFile.markers.get('release')
     return (typeof release === 'number') ? release : this.audioFile.getSourceDurationSeconds()
   }
-  /**
-   * @param {UseContext} context 
-   */
 }
 
 class AFReverse extends AudioFileRange {
+  /**
+   * @param {UseContext} context
+   */
   use(context) {
     const rxFile = this.audioFile.use(context)
     rxFile.startInSourceSeconds = 0
@@ -52,6 +52,9 @@ class AFReverse extends AudioFileRange {
 }
 
 class AFReverseLeadIn extends AudioFileRange {
+  /**
+   * @param {UseContext} context
+   */
   use(context) {
     const newFile = this.audioFile.use(context)
 
