@@ -49,11 +49,19 @@ class AFOnsetRelease {
     }
   }
 
+  /**
+   * Time at which the sample's "body" begins, relative to the start of the
+   * source audio file.
+   */
   get onsetSeconds () {
     const onset = this.audioFile.markers.get('onset')
     return (typeof onset === 'number') ? onset : 0
   }
 
+  /**
+   * Time at which the sample's "decay" begins, relative to the start of the
+   * source audio file.
+   */
   get releaseSeconds () {
     const release = this.audioFile.markers.get('release')
     return (typeof release === 'number') ? release : this.audioFile.getSourceDurationSeconds()
