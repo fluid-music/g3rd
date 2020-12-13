@@ -2,18 +2,51 @@
 const { techniques, FluidAudioFile } = require('fluid-music')
 
 /**
- * @typedef {import('fluid-music').AudioFileOptions} AudioFileOptions
- * @typedef {import('fluid-music').techniques.AudioFile} AudioFile
+ * @typedef {import('fluid-music/built/fluid-techniques').AudioFile} AudioFile
  * @typedef {import('fluid-music').UseContext} UseContext
  */
 
-class AudioFileRange {
-
+/**
+ * AFOnsetRelease encapsulates a `techniques.AudioFile` instance, dividing the
+ * underlying source audio file into three regions delimited by `onsetSeconds`
+ * and `releaseSeconds`.
+ *
+ * ```
+ *       onsetSeconds    releaseSeconds
+ *            |                |
+ * |--attack--|------body------|-----decay-----|
+ * ```
+ *
+ * This lightweight abstraction is designed to make it easy to write techniques
+ * that align the onset or release of a sample with a musical beat - especially
+ * in the case where the sample will be played in reverse.
+ */
+class AFOnsetRelease {
   /**
    * @param {AudioFile} audioFileTechnique
+   * @param {number} [onsetSeconds] The time at which the 'onset' portion of the
+   *    sound begins, measured from the start of the source audio file. If not
+   *    provided, use the underlying `onset` marker in the source audio file. If
+   *    there is no `onset` marker, use 0 (the start of the file)
+   * @param {number} [releaseSeconds] The time at which the 'release' portion of
+   *    the sound begins, measured from the start of the source audio file. If
+   *    not provided, use the `release` marker in the source audio file. If
+   *    there is no `release` marker, use the end of the underlying audio file.
    */
-  constructor(audioFileTechnique) {
+  constructor(audioFileTechnique, onsetSeconds, releaseSeconds) {
     this.audioFile = audioFileTechnique
+    if (onsetSeconds !== undefined) {
+      if (typeof onsetSeconds !== 'number') {
+        throw new Error('invalid `onsetSeconds` parameter: ' + onsetSeconds)
+      }
+      this.audioFile.markers.set('onset', onsetSeconds)
+    }
+    if(releaseSeconds !== undefined) {
+      if (typeof releaseSeconds !== 'number') {
+        throw new Error('invalid `releaseSeconds` parameter: ' + releaseSeconds)
+      }
+      this.audioFile.markers.set('release', releaseSeconds)
+    }
   }
 
   get onsetSeconds () {
@@ -27,7 +60,7 @@ class AudioFileRange {
   }
 }
 
-class AFReverse extends AudioFileRange {
+class AFReverse extends AFOnsetRelease {
   /**
    * @param {UseContext} context
    */
@@ -51,7 +84,7 @@ class AFReverse extends AudioFileRange {
   }
 }
 
-class AFReverseLeadIn extends AudioFileRange {
+class AFReverseLeadIn extends AFOnsetRelease {
   /**
    * @param {UseContext} context
    */
