@@ -1,6 +1,6 @@
 # @fluid-music/g3rd
 
-`g3rd` contains collection of guitar dyad (2-note chords) samples packages for the 
+`g3rd` contains collection of guitar dyad (2-note chords) samples packaged for the 
 [`fluid-music`](https://www.npmjs.com/package/fluid-music) Node framework. 
 
 It exports 6 different `tLibrary` objects, each of which contains 9 different techniques identified by the lower case symbols: `a`, `b`, `c`, `d`, `e`, `f`, `g`, `h`, `i`.  
