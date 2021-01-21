@@ -8,14 +8,16 @@ It exports 6 different `tLibrary` objects, each of which contains 9 different te
 ```javascript
 modules.exports = {
   // Each tLibrary plays the samples using different technique
-  guitar:               { /* a through i */ }
-  reverse:              { /* a through i */ }
-  reverseLeadIn:        { /* a through i */ }
+  guitar:               { /* a through i */ },
+  reverse:              { /* a through i */ },
+  reverseLeadIn:        { /* a through i */ },
   // The strech libraries play samples processed by "Paul Stretch"
-  stretch:              { /* a through i */ }
-  stretchReverse:       { /* a through i */ }
-  stretchReverseLeadIn: { /* a through i */ }
+  stretch:              { /* a through i */ },
+  stretchReverse:       { /* a through i */ },
+  stretchReverseLeadIn: { /* a through i */ },
 }
 ```
+
+Each dyad is a major or minor 10th in the key of  E Minor. Read [`./guitars.js`](https://github.com/fluid-music/g3rd/blob/main/guitars.js) for more details. 
 
 It's a larger package, ~40 MB unpacked, so only it may download a little slowly. 
