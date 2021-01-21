@@ -11,7 +11,7 @@ modules.exports = {
   guitar:               { /* a through i */ },
   reverse:              { /* a through i */ },
   reverseLeadIn:        { /* a through i */ },
-  // The strech libraries play samples processed by "Paul Stretch"
+  // The stretch libraries play samples processed by "Paul Stretch"
   stretch:              { /* a through i */ },
   stretchReverse:       { /* a through i */ },
   stretchReverseLeadIn: { /* a through i */ },
